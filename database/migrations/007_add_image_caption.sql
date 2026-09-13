@@ -1,0 +1,2 @@
+ALTER TABLE pages
+    ADD COLUMN image_caption VARCHAR(255) DEFAULT NULL AFTER image;

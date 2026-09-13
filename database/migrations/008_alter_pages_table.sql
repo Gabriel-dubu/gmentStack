@@ -1,0 +1,21 @@
+ALTER TABLE pages
+    ADD COLUMN hero_eyebrow VARCHAR(80) DEFAULT NULL AFTER subtitle,
+    ADD COLUMN title_highlight VARCHAR(100) DEFAULT NULL AFTER her_eyebrow,
+    ADD COLUMN trust_badges TEXT DEFAULT NULL AFTER title_highlight,
+    ADD COLUMN cta_secondary_text VARCHAR(80) DEFAULT NULL AFTER cta_link,
+    ADD COLUMN cta_secondary_link VARCHAR(255) DEFAULT NULL AFTER cta_secondary_text;
+
+ALTER TABLE leads 
+    ADD COLUMN company VARCHAR(150) DEFAULT NULL AFTER name,
+    ADD COLUMN email VARCHAR(160) DEFAULT NULL AFTER phone,
+    ADD COLUMN situation VARCHAR(100) DEFAULT NULL AFTER email,
+    ADD COLUMN message TEXT DEFAULT NULL AFTER situation;
+
+CREATE TABLE page_faqs (
+    id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    page_id INT UNSIGNED NOT NULL,
+    position TINYINT UNSIGNED NOT NULL DEFAULT 0,
+    question VARCHAR(255) NOT NULL,
+    answer TEXT NOT NULL,
+    CONSTRAINT  fk_pages_faqs_page FOREIGN KEY (page_id) REFERENCES pages(id) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;

@@ -1,0 +1,1696 @@
+[18-Aug-2026 16:24:09 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "APP_ROOT" in C:\xampp\htdocs\gmentStck\public\index.php:6
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\gmentStck\public\index.php on line 6
+[18-Aug-2026 16:24:17 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "APP_ROOT" in C:\xampp\htdocs\gmentStck\public\index.php:6
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\gmentStck\public\index.php on line 6
+[18-Aug-2026 16:24:18 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "APP_ROOT" in C:\xampp\htdocs\gmentStck\public\index.php:6
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\gmentStck\public\index.php on line 6
+[18-Aug-2026 16:24:18 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "APP_ROOT" in C:\xampp\htdocs\gmentStck\public\index.php:6
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\gmentStck\public\index.php on line 6
+[18-Aug-2026 16:54:20 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "APP_ROOT" in C:\xampp\htdocs\gmentStck\public\index.php:6
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\gmentStck\public\index.php on line 6
+[18-Aug-2026 16:54:21 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "APP_ROOT" in C:\xampp\htdocs\gmentStck\public\index.php:6
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\gmentStck\public\index.php on line 6
+[18-Aug-2026 16:54:44 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "APP_ROOT" in C:\xampp\htdocs\gmentStck\public\index.php:6
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\gmentStck\public\index.php on line 6
+[18-Aug-2026 16:54:46 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "APP_ROOT" in C:\xampp\htdocs\gmentStck\public\index.php:6
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\gmentStck\public\index.php on line 6
+[18-Aug-2026 16:54:47 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "APP_ROOT" in C:\xampp\htdocs\gmentStck\public\index.php:6
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\gmentStck\public\index.php on line 6
+[18-Aug-2026 16:54:51 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "APP_ROOT" in C:\xampp\htdocs\gmentStck\public\index.php:6
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\gmentStck\public\index.php on line 6
+[18-Aug-2026 16:54:57 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "APP_ROOT" in C:\xampp\htdocs\gmentStck\public\index.php:6
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\gmentStck\public\index.php on line 6
+[18-Aug-2026 17:38:42 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\gmentStck\app\Views\layouts\header.php:6
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Views\home\index.php(1): require()
+#1 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(26): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(27): App\Core\Controller::App\Core\{closure}('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\gmentStck\app\Controllers\HomeController.php(13): App\Core\Controller->view('home/index', Array)
+#4 C:\xampp\htdocs\gmentStck\app\Core\Router.php(91): App\Controllers\HomeController->index()
+#5 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#6 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/')
+#7 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Views\layouts\header.php on line 6
+[18-Aug-2026 18:08:20 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\gmentStck\app\Views\layouts\header.php:6
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Views\admin\login.php(6): require()
+#1 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(26): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(27): App\Core\Controller::App\Core\{closure}('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\gmentStck\app\Controllers\Admin\AuthController.php(17): App\Core\Controller->view('admin/login', Array)
+#4 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\Admin\AuthController->showLogin()
+#5 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#6 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/admin/login')
+#7 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Views\layouts\header.php on line 6
+[18-Aug-2026 18:08:22 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function e() in C:\xampp\htdocs\gmentStck\app\Views\layouts\header.php:6
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Views\admin\login.php(6): require()
+#1 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(26): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(27): App\Core\Controller::App\Core\{closure}('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\gmentStck\app\Controllers\Admin\AuthController.php(17): App\Core\Controller->view('admin/login', Array)
+#4 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\Admin\AuthController->showLogin()
+#5 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#6 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/admin/login')
+#7 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Views\layouts\header.php on line 6
+[18-Aug-2026 18:08:55 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'gmentstck.pages' doesn't exist in C:\xampp\htdocs\gmentStck\app\Models\Page.php:33
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Models\Page.php(33): PDO->prepare('SELECT * FROM p...')
+#1 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(30): App\Models\Page::findBySlug('fg')
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('fg')
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#4 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/fg')
+#5 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Models\Page.php on line 33
+[18-Aug-2026 18:08:59 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'gmentstck.pages' doesn't exist in C:\xampp\htdocs\gmentStck\app\Models\Page.php:33
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Models\Page.php(33): PDO->prepare('SELECT * FROM p...')
+#1 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(30): App\Models\Page::findBySlug('fg')
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('fg')
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#4 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/fg')
+#5 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Models\Page.php on line 33
+[18-Aug-2026 18:09:05 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'gmentstck.pages' doesn't exist in C:\xampp\htdocs\gmentStck\app\Models\Page.php:33
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Models\Page.php(33): PDO->prepare('SELECT * FROM p...')
+#1 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(17): App\Models\Page::findBySlug('inicio')
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->home()
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#4 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/')
+#5 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Models\Page.php on line 33
+[18-Aug-2026 18:09:15 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'gmentstck.pages' doesn't exist in C:\xampp\htdocs\gmentStck\app\Models\Page.php:33
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Models\Page.php(33): PDO->prepare('SELECT * FROM p...')
+#1 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(30): App\Models\Page::findBySlug('home')
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('home')
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#4 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/home')
+#5 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Models\Page.php on line 33
+[18-Aug-2026 18:09:29 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'gmentstck.pages' doesn't exist in C:\xampp\htdocs\gmentStck\app\Models\Page.php:33
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Models\Page.php(33): PDO->prepare('SELECT * FROM p...')
+#1 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(17): App\Models\Page::findBySlug('inicio')
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->home()
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#4 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/')
+#5 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Models\Page.php on line 33
+[18-Aug-2026 18:09:30 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'gmentstck.pages' doesn't exist in C:\xampp\htdocs\gmentStck\app\Models\Page.php:33
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Models\Page.php(33): PDO->prepare('SELECT * FROM p...')
+#1 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(30): App\Models\Page::findBySlug('fg')
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('fg')
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#4 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/fg')
+#5 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Models\Page.php on line 33
+[18-Aug-2026 18:10:06 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'gmentstck.pages' doesn't exist in C:\xampp\htdocs\gmentStck\app\Models\Page.php:14
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Models\Page.php(14): PDO->query('SELECT id, slug...')
+#1 C:\xampp\htdocs\gmentStck\app\Controllers\Admin\PageController.php(29): App\Models\Page::all()
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\Admin\PageController->index()
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#4 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/admin/pages')
+#5 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Models\Page.php on line 14
+[18-Aug-2026 18:10:20 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'gmentstck.pages' doesn't exist in C:\xampp\htdocs\gmentStck\app\Models\Page.php:14
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Models\Page.php(14): PDO->query('SELECT id, slug...')
+#1 C:\xampp\htdocs\gmentStck\app\Controllers\Admin\PageController.php(29): App\Models\Page::all()
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\Admin\PageController->index()
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#4 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/admin/pages')
+#5 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Models\Page.php on line 14
+[18-Aug-2026 18:11:34 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'gmentstck.pages' doesn't exist in C:\xampp\htdocs\gmentStck\app\Models\Page.php:33
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Models\Page.php(33): PDO->prepare('SELECT * FROM p...')
+#1 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(17): App\Models\Page::findBySlug('inicio')
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->home()
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#4 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/')
+#5 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Models\Page.php on line 33
+[20-Aug-2026 18:03:43 Europe/Berlin] Erro de conexão com o banco: SQLSTATE[HY000] [2002] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+[20-Aug-2026 18:03:43 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: Não foi possível conectar ao banco de dados. in C:\xampp\htdocs\gmentStck\app\Core\Database.php:35
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Models\Page.php(41): App\Core\Database::getConnection()
+#1 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(17): App\Models\Page::findBySlug('inicio')
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->home()
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#4 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/')
+#5 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Core\Database.php on line 35
+[20-Aug-2026 18:04:02 Europe/Berlin] Erro de conexão com o banco: SQLSTATE[HY000] [2002] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+[20-Aug-2026 18:04:02 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: Não foi possível conectar ao banco de dados. in C:\xampp\htdocs\gmentStck\app\Core\Database.php:35
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Models\Page.php(41): App\Core\Database::getConnection()
+#1 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(17): App\Models\Page::findBySlug('inicio')
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->home()
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#4 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/')
+#5 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Core\Database.php on line 35
+[20-Aug-2026 19:19:58 Europe/Berlin] Erro de conexão com o banco: SQLSTATE[HY000] [2002] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+[20-Aug-2026 19:19:58 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: Não foi possível conectar ao banco de dados. in C:\xampp\htdocs\gmentStck\app\Core\Database.php:35
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Models\Page.php(32): App\Core\Database::getConnection()
+#1 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(15): App\Models\Page::findBySlug('inicio')
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->home()
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#4 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/')
+#5 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Core\Database.php on line 35
+[20-Aug-2026 19:20:02 Europe/Berlin] Erro de conexão com o banco: SQLSTATE[HY000] [2002] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+[20-Aug-2026 19:20:02 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: Não foi possível conectar ao banco de dados. in C:\xampp\htdocs\gmentStck\app\Core\Database.php:35
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Models\Page.php(32): App\Core\Database::getConnection()
+#1 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(15): App\Models\Page::findBySlug('inicio')
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->home()
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#4 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/')
+#5 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Core\Database.php on line 35
+[20-Aug-2026 19:20:06 Europe/Berlin] Erro de conexão com o banco: SQLSTATE[HY000] [2002] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+[20-Aug-2026 19:20:06 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: Não foi possível conectar ao banco de dados. in C:\xampp\htdocs\gmentStck\app\Core\Database.php:35
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Models\Page.php(32): App\Core\Database::getConnection()
+#1 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(15): App\Models\Page::findBySlug('inicio')
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->home()
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#4 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/')
+#5 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Core\Database.php on line 35
+[20-Aug-2026 19:20:31 Europe/Berlin] Erro de conexão com o banco: SQLSTATE[HY000] [2002] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+[20-Aug-2026 19:20:31 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: Não foi possível conectar ao banco de dados. in C:\xampp\htdocs\gmentStck\app\Core\Database.php:35
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Models\User.php(15): App\Core\Database::getConnection()
+#1 C:\xampp\htdocs\gmentStck\app\Core\Auth.php(20): App\Models\User::findByEmail('admin@admin.com')
+#2 C:\xampp\htdocs\gmentStck\app\Controllers\Admin\AuthController.php(40): App\Core\Auth::attempt('admin@admin.com', '1234')
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\Admin\AuthController->login()
+#4 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#5 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('POST', '/admin/login')
+#6 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Core\Database.php on line 35
+[20-Aug-2026 19:20:55 Europe/Berlin] Erro de conexão com o banco: SQLSTATE[HY000] [2002] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+[20-Aug-2026 19:20:55 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: Não foi possível conectar ao banco de dados. in C:\xampp\htdocs\gmentStck\app\Core\Database.php:35
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Models\User.php(15): App\Core\Database::getConnection()
+#1 C:\xampp\htdocs\gmentStck\app\Core\Auth.php(20): App\Models\User::findByEmail('admin@admin.com')
+#2 C:\xampp\htdocs\gmentStck\app\Controllers\Admin\AuthController.php(40): App\Core\Auth::attempt('admin@admin.com', '1234')
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\Admin\AuthController->login()
+#4 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#5 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('POST', '/admin/login')
+#6 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Core\Database.php on line 35
+[20-Aug-2026 19:21:48 Europe/Berlin] PHP Fatal error:  Uncaught RuntimeException: View não encontrada: home/institucional in C:\xampp\htdocs\gmentStck\app\Core\Controller.php:16
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(42): App\Core\Controller->view('home/institucio...', Array)
+#1 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(35): App\Controllers\PageController->renderPage(Array)
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('inicio')
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#4 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/inicio')
+#5 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Core\Controller.php on line 16
+[20-Aug-2026 19:22:22 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'page.id' in 'on clause' in C:\xampp\htdocs\gmentStck\app\Models\Lead.php:31
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Models\Lead.php(31): PDO->query('SELECT leads.id...')
+#1 C:\xampp\htdocs\gmentStck\app\Controllers\Admin\LeadController.php(17): App\Models\Lead::all()
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\Admin\LeadController->index()
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#4 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/admin/leads')
+#5 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Models\Lead.php on line 31
+[20-Aug-2026 19:23:41 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'page.id' in 'on clause' in C:\xampp\htdocs\gmentStck\app\Models\Lead.php:31
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Models\Lead.php(31): PDO->query('SELECT leads.id...')
+#1 C:\xampp\htdocs\gmentStck\app\Controllers\Admin\LeadController.php(18): App\Models\Lead::all()
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\Admin\LeadController->index()
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#4 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/admin/leads')
+#5 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Models\Lead.php on line 31
+[20-Aug-2026 19:23:42 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'page.id' in 'on clause' in C:\xampp\htdocs\gmentStck\app\Models\Lead.php:31
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Models\Lead.php(31): PDO->query('SELECT leads.id...')
+#1 C:\xampp\htdocs\gmentStck\app\Controllers\Admin\LeadController.php(18): App\Models\Lead::all()
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\Admin\LeadController->index()
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#4 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/admin/leads')
+#5 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Models\Lead.php on line 31
+[20-Aug-2026 19:23:44 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'page.id' in 'on clause' in C:\xampp\htdocs\gmentStck\app\Models\Lead.php:31
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Models\Lead.php(31): PDO->query('SELECT leads.id...')
+#1 C:\xampp\htdocs\gmentStck\app\Controllers\Admin\LeadController.php(18): App\Models\Lead::all()
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\Admin\LeadController->index()
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#4 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/admin/leads')
+#5 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Models\Lead.php on line 31
+[20-Aug-2026 19:23:45 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'page.id' in 'on clause' in C:\xampp\htdocs\gmentStck\app\Models\Lead.php:31
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Models\Lead.php(31): PDO->query('SELECT leads.id...')
+#1 C:\xampp\htdocs\gmentStck\app\Controllers\Admin\LeadController.php(18): App\Models\Lead::all()
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\Admin\LeadController->index()
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#4 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/admin/leads')
+#5 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Models\Lead.php on line 31
+[20-Aug-2026 19:23:45 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'page.id' in 'on clause' in C:\xampp\htdocs\gmentStck\app\Models\Lead.php:31
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Models\Lead.php(31): PDO->query('SELECT leads.id...')
+#1 C:\xampp\htdocs\gmentStck\app\Controllers\Admin\LeadController.php(18): App\Models\Lead::all()
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\Admin\LeadController->index()
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#4 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/admin/leads')
+#5 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Models\Lead.php on line 31
+[20-Aug-2026 19:23:46 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'page.id' in 'on clause' in C:\xampp\htdocs\gmentStck\app\Models\Lead.php:31
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Models\Lead.php(31): PDO->query('SELECT leads.id...')
+#1 C:\xampp\htdocs\gmentStck\app\Controllers\Admin\LeadController.php(18): App\Models\Lead::all()
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\Admin\LeadController->index()
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#4 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/admin/leads')
+#5 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Models\Lead.php on line 31
+[20-Aug-2026 19:23:47 Europe/Berlin] PHP Fatal error:  Uncaught RuntimeException: View não encontrada: home/institucional in C:\xampp\htdocs\gmentStck\app\Core\Controller.php:16
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(42): App\Core\Controller->view('home/institucio...', Array)
+#1 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(35): App\Controllers\PageController->renderPage(Array)
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('inicio')
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#4 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/inicio')
+#5 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Core\Controller.php on line 16
+[20-Aug-2026 19:23:49 Europe/Berlin] PHP Fatal error:  Uncaught RuntimeException: View não encontrada: home/institucional in C:\xampp\htdocs\gmentStck\app\Core\Controller.php:16
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(42): App\Core\Controller->view('home/institucio...', Array)
+#1 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(35): App\Controllers\PageController->renderPage(Array)
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('inicio')
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#4 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/inicio')
+#5 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Core\Controller.php on line 16
+[20-Aug-2026 19:23:49 Europe/Berlin] PHP Fatal error:  Uncaught RuntimeException: View não encontrada: home/institucional in C:\xampp\htdocs\gmentStck\app\Core\Controller.php:16
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(42): App\Core\Controller->view('home/institucio...', Array)
+#1 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(35): App\Controllers\PageController->renderPage(Array)
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('inicio')
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#4 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/inicio')
+#5 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Core\Controller.php on line 16
+[20-Aug-2026 19:23:51 Europe/Berlin] PHP Fatal error:  Uncaught RuntimeException: View não encontrada: home/institucional in C:\xampp\htdocs\gmentStck\app\Core\Controller.php:16
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(42): App\Core\Controller->view('home/institucio...', Array)
+#1 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(35): App\Controllers\PageController->renderPage(Array)
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('inicio')
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#4 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/inicio')
+#5 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Core\Controller.php on line 16
+[20-Aug-2026 19:24:30 Europe/Berlin] PHP Fatal error:  Uncaught RuntimeException: View não encontrada: home/institucional in C:\xampp\htdocs\gmentStck\app\Core\Controller.php:16
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(42): App\Core\Controller->view('home/institucio...', Array)
+#1 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(35): App\Controllers\PageController->renderPage(Array)
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('inicio')
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#4 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/inicio')
+#5 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Core\Controller.php on line 16
+[20-Aug-2026 19:25:20 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'page.id' in 'on clause' in C:\xampp\htdocs\gmentStck\app\Models\Lead.php:31
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Models\Lead.php(31): PDO->query('SELECT leads.id...')
+#1 C:\xampp\htdocs\gmentStck\app\Controllers\Admin\LeadController.php(18): App\Models\Lead::all()
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\Admin\LeadController->index()
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#4 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/admin/leads')
+#5 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Models\Lead.php on line 31
+[20-Aug-2026 19:25:21 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'page.id' in 'on clause' in C:\xampp\htdocs\gmentStck\app\Models\Lead.php:31
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Models\Lead.php(31): PDO->query('SELECT leads.id...')
+#1 C:\xampp\htdocs\gmentStck\app\Controllers\Admin\LeadController.php(18): App\Models\Lead::all()
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\Admin\LeadController->index()
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#4 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/admin/leads')
+#5 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Models\Lead.php on line 31
+[20-Aug-2026 19:25:21 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'page.id' in 'on clause' in C:\xampp\htdocs\gmentStck\app\Models\Lead.php:31
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Models\Lead.php(31): PDO->query('SELECT leads.id...')
+#1 C:\xampp\htdocs\gmentStck\app\Controllers\Admin\LeadController.php(18): App\Models\Lead::all()
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\Admin\LeadController->index()
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#4 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/admin/leads')
+#5 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Models\Lead.php on line 31
+[20-Aug-2026 19:25:22 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'page.id' in 'on clause' in C:\xampp\htdocs\gmentStck\app\Models\Lead.php:31
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Models\Lead.php(31): PDO->query('SELECT leads.id...')
+#1 C:\xampp\htdocs\gmentStck\app\Controllers\Admin\LeadController.php(18): App\Models\Lead::all()
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\Admin\LeadController->index()
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#4 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/admin/leads')
+#5 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Models\Lead.php on line 31
+[20-Aug-2026 19:25:22 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'page.id' in 'on clause' in C:\xampp\htdocs\gmentStck\app\Models\Lead.php:31
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Models\Lead.php(31): PDO->query('SELECT leads.id...')
+#1 C:\xampp\htdocs\gmentStck\app\Controllers\Admin\LeadController.php(18): App\Models\Lead::all()
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\Admin\LeadController->index()
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#4 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/admin/leads')
+#5 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Models\Lead.php on line 31
+[20-Aug-2026 19:25:22 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'page.id' in 'on clause' in C:\xampp\htdocs\gmentStck\app\Models\Lead.php:31
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Models\Lead.php(31): PDO->query('SELECT leads.id...')
+#1 C:\xampp\htdocs\gmentStck\app\Controllers\Admin\LeadController.php(18): App\Models\Lead::all()
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\Admin\LeadController->index()
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#4 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/admin/leads')
+#5 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Models\Lead.php on line 31
+[20-Aug-2026 19:25:36 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'page.id' in 'on clause' in C:\xampp\htdocs\gmentStck\app\Models\Lead.php:31
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Models\Lead.php(31): PDO->query('SELECT leads.id...')
+#1 C:\xampp\htdocs\gmentStck\app\Controllers\Admin\LeadController.php(18): App\Models\Lead::all()
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\Admin\LeadController->index()
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#4 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/admin/leads')
+#5 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Models\Lead.php on line 31
+[20-Aug-2026 19:26:25 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'page.id' in 'on clause' in C:\xampp\htdocs\gmentStck\app\Models\Lead.php:31
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Models\Lead.php(31): PDO->query('SELECT leads.id...')
+#1 C:\xampp\htdocs\gmentStck\app\Controllers\Admin\LeadController.php(18): App\Models\Lead::all()
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\Admin\LeadController->index()
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#4 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/admin/leads')
+#5 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Models\Lead.php on line 31
+[20-Aug-2026 19:26:26 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'page.id' in 'on clause' in C:\xampp\htdocs\gmentStck\app\Models\Lead.php:31
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Models\Lead.php(31): PDO->query('SELECT leads.id...')
+#1 C:\xampp\htdocs\gmentStck\app\Controllers\Admin\LeadController.php(18): App\Models\Lead::all()
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\Admin\LeadController->index()
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#4 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/admin/leads')
+#5 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Models\Lead.php on line 31
+[20-Aug-2026 19:26:28 Europe/Berlin] PHP Fatal error:  Uncaught RuntimeException: View não encontrada: home/institucional in C:\xampp\htdocs\gmentStck\app\Core\Controller.php:16
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(46): App\Core\Controller->view('home/institucio...', Array)
+#1 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(35): App\Controllers\PageController->renderPage(Array)
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('inicio')
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#4 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/inicio')
+#5 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Core\Controller.php on line 16
+[20-Aug-2026 19:26:29 Europe/Berlin] PHP Fatal error:  Uncaught RuntimeException: View não encontrada: home/institucional in C:\xampp\htdocs\gmentStck\app\Core\Controller.php:16
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(46): App\Core\Controller->view('home/institucio...', Array)
+#1 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(35): App\Controllers\PageController->renderPage(Array)
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('inicio')
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#4 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/inicio')
+#5 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Core\Controller.php on line 16
+[20-Aug-2026 19:27:32 Europe/Berlin] PHP Fatal error:  Uncaught RuntimeException: View não encontrada: home/institucional in C:\xampp\htdocs\gmentStck\app\Core\Controller.php:16
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(46): App\Core\Controller->view('home/institucio...', Array)
+#1 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(35): App\Controllers\PageController->renderPage(Array)
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('inicio')
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#4 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/inicio')
+#5 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Core\Controller.php on line 16
+[20-Aug-2026 19:27:33 Europe/Berlin] PHP Fatal error:  Uncaught RuntimeException: View não encontrada: home/institucional in C:\xampp\htdocs\gmentStck\app\Core\Controller.php:16
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(46): App\Core\Controller->view('home/institucio...', Array)
+#1 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(35): App\Controllers\PageController->renderPage(Array)
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('inicio')
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#4 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/inicio')
+#5 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Core\Controller.php on line 16
+[20-Aug-2026 19:27:33 Europe/Berlin] PHP Fatal error:  Uncaught RuntimeException: View não encontrada: home/institucional in C:\xampp\htdocs\gmentStck\app\Core\Controller.php:16
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(46): App\Core\Controller->view('home/institucio...', Array)
+#1 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(35): App\Controllers\PageController->renderPage(Array)
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('inicio')
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#4 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/inicio')
+#5 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Core\Controller.php on line 16
+[20-Aug-2026 19:27:34 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'page.id' in 'on clause' in C:\xampp\htdocs\gmentStck\app\Models\Lead.php:31
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Models\Lead.php(31): PDO->query('SELECT leads.id...')
+#1 C:\xampp\htdocs\gmentStck\app\Controllers\Admin\LeadController.php(18): App\Models\Lead::all()
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\Admin\LeadController->index()
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#4 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/admin/leads')
+#5 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Models\Lead.php on line 31
+[20-Aug-2026 19:27:35 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'page.id' in 'on clause' in C:\xampp\htdocs\gmentStck\app\Models\Lead.php:31
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Models\Lead.php(31): PDO->query('SELECT leads.id...')
+#1 C:\xampp\htdocs\gmentStck\app\Controllers\Admin\LeadController.php(18): App\Models\Lead::all()
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\Admin\LeadController->index()
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#4 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/admin/leads')
+#5 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Models\Lead.php on line 31
+[20-Aug-2026 19:27:35 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'page.id' in 'on clause' in C:\xampp\htdocs\gmentStck\app\Models\Lead.php:31
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Models\Lead.php(31): PDO->query('SELECT leads.id...')
+#1 C:\xampp\htdocs\gmentStck\app\Controllers\Admin\LeadController.php(18): App\Models\Lead::all()
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\Admin\LeadController->index()
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#4 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/admin/leads')
+#5 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Models\Lead.php on line 31
+[20-Aug-2026 19:27:35 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'page.id' in 'on clause' in C:\xampp\htdocs\gmentStck\app\Models\Lead.php:31
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Models\Lead.php(31): PDO->query('SELECT leads.id...')
+#1 C:\xampp\htdocs\gmentStck\app\Controllers\Admin\LeadController.php(18): App\Models\Lead::all()
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\Admin\LeadController->index()
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#4 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/admin/leads')
+#5 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Models\Lead.php on line 31
+[20-Aug-2026 19:27:35 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'page.id' in 'on clause' in C:\xampp\htdocs\gmentStck\app\Models\Lead.php:31
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Models\Lead.php(31): PDO->query('SELECT leads.id...')
+#1 C:\xampp\htdocs\gmentStck\app\Controllers\Admin\LeadController.php(18): App\Models\Lead::all()
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\Admin\LeadController->index()
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#4 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/admin/leads')
+#5 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Models\Lead.php on line 31
+[20-Aug-2026 19:27:36 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'page.id' in 'on clause' in C:\xampp\htdocs\gmentStck\app\Models\Lead.php:31
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Models\Lead.php(31): PDO->query('SELECT leads.id...')
+#1 C:\xampp\htdocs\gmentStck\app\Controllers\Admin\LeadController.php(18): App\Models\Lead::all()
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\Admin\LeadController->index()
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#4 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/admin/leads')
+#5 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Models\Lead.php on line 31
+[20-Aug-2026 19:27:36 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'page.id' in 'on clause' in C:\xampp\htdocs\gmentStck\app\Models\Lead.php:31
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Models\Lead.php(31): PDO->query('SELECT leads.id...')
+#1 C:\xampp\htdocs\gmentStck\app\Controllers\Admin\LeadController.php(18): App\Models\Lead::all()
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\Admin\LeadController->index()
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#4 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/admin/leads')
+#5 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Models\Lead.php on line 31
+[20-Aug-2026 19:27:36 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'page.id' in 'on clause' in C:\xampp\htdocs\gmentStck\app\Models\Lead.php:31
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Models\Lead.php(31): PDO->query('SELECT leads.id...')
+#1 C:\xampp\htdocs\gmentStck\app\Controllers\Admin\LeadController.php(18): App\Models\Lead::all()
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\Admin\LeadController->index()
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#4 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/admin/leads')
+#5 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Models\Lead.php on line 31
+[20-Aug-2026 19:27:36 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'page.id' in 'on clause' in C:\xampp\htdocs\gmentStck\app\Models\Lead.php:31
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Models\Lead.php(31): PDO->query('SELECT leads.id...')
+#1 C:\xampp\htdocs\gmentStck\app\Controllers\Admin\LeadController.php(18): App\Models\Lead::all()
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\Admin\LeadController->index()
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#4 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/admin/leads')
+#5 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Models\Lead.php on line 31
+[20-Aug-2026 19:49:27 Europe/Berlin] PHP Fatal error:  Uncaught RuntimeException: View não encontrada: home/institucional in C:\xampp\htdocs\gmentStck\app\Core\Controller.php:16
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(46): App\Core\Controller->view('home/institucio...', Array)
+#1 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(35): App\Controllers\PageController->renderPage(Array)
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('inicio')
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#4 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/inicio')
+#5 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Core\Controller.php on line 16
+[20-Aug-2026 19:49:28 Europe/Berlin] PHP Fatal error:  Uncaught RuntimeException: View não encontrada: home/institucional in C:\xampp\htdocs\gmentStck\app\Core\Controller.php:16
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(46): App\Core\Controller->view('home/institucio...', Array)
+#1 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(35): App\Controllers\PageController->renderPage(Array)
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('inicio')
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#4 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/inicio')
+#5 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Core\Controller.php on line 16
+[20-Aug-2026 19:49:29 Europe/Berlin] PHP Fatal error:  Uncaught RuntimeException: View não encontrada: home/institucional in C:\xampp\htdocs\gmentStck\app\Core\Controller.php:16
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(46): App\Core\Controller->view('home/institucio...', Array)
+#1 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(35): App\Controllers\PageController->renderPage(Array)
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('inicio')
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#4 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/inicio')
+#5 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Core\Controller.php on line 16
+[20-Aug-2026 19:49:29 Europe/Berlin] PHP Fatal error:  Uncaught RuntimeException: View não encontrada: home/institucional in C:\xampp\htdocs\gmentStck\app\Core\Controller.php:16
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(46): App\Core\Controller->view('home/institucio...', Array)
+#1 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(35): App\Controllers\PageController->renderPage(Array)
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('inicio')
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#4 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/inicio')
+#5 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Core\Controller.php on line 16
+[20-Aug-2026 20:24:02 Europe/Berlin] PHP Fatal error:  Uncaught RuntimeException: View não encontrada: home/institucional in C:\xampp\htdocs\gmentStck\app\Core\Controller.php:16
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(46): App\Core\Controller->view('home/institucio...', Array)
+#1 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(35): App\Controllers\PageController->renderPage(Array)
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('inicio')
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#4 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/inicio')
+#5 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Core\Controller.php on line 16
+[20-Aug-2026 20:24:03 Europe/Berlin] PHP Fatal error:  Uncaught RuntimeException: View não encontrada: home/institucional in C:\xampp\htdocs\gmentStck\app\Core\Controller.php:16
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(46): App\Core\Controller->view('home/institucio...', Array)
+#1 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(35): App\Controllers\PageController->renderPage(Array)
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('inicio')
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#4 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/inicio')
+#5 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Core\Controller.php on line 16
+[21-Aug-2026 17:36:08 Europe/Berlin] PHP Parse error:  syntax error, unexpected token ")" in C:\xampp\htdocs\gmentStck\app\Controllers\Admin\PageController.php on line 229
+[21-Aug-2026 17:36:10 Europe/Berlin] PHP Parse error:  syntax error, unexpected token ")" in C:\xampp\htdocs\gmentStck\app\Controllers\Admin\PageController.php on line 229
+[21-Aug-2026 17:36:59 Europe/Berlin] PHP Parse error:  syntax error, unexpected token ")" in C:\xampp\htdocs\gmentStck\app\Controllers\Admin\PageController.php on line 229
+[21-Aug-2026 17:37:00 Europe/Berlin] PHP Parse error:  syntax error, unexpected token ")" in C:\xampp\htdocs\gmentStck\app\Controllers\Admin\PageController.php on line 229
+[21-Aug-2026 17:37:01 Europe/Berlin] PHP Parse error:  syntax error, unexpected token ")" in C:\xampp\htdocs\gmentStck\app\Controllers\Admin\PageController.php on line 229
+[21-Aug-2026 17:37:01 Europe/Berlin] PHP Parse error:  syntax error, unexpected token ")" in C:\xampp\htdocs\gmentStck\app\Controllers\Admin\PageController.php on line 229
+[21-Aug-2026 17:37:02 Europe/Berlin] PHP Parse error:  syntax error, unexpected token ")" in C:\xampp\htdocs\gmentStck\app\Controllers\Admin\PageController.php on line 229
+[21-Aug-2026 17:37:02 Europe/Berlin] PHP Parse error:  syntax error, unexpected token ")" in C:\xampp\htdocs\gmentStck\app\Controllers\Admin\PageController.php on line 229
+[21-Aug-2026 17:37:02 Europe/Berlin] PHP Parse error:  syntax error, unexpected token ")" in C:\xampp\htdocs\gmentStck\app\Controllers\Admin\PageController.php on line 229
+[21-Aug-2026 17:37:03 Europe/Berlin] PHP Parse error:  syntax error, unexpected token ")" in C:\xampp\htdocs\gmentStck\app\Controllers\Admin\PageController.php on line 229
+[21-Aug-2026 17:37:03 Europe/Berlin] PHP Parse error:  syntax error, unexpected token ")" in C:\xampp\htdocs\gmentStck\app\Controllers\Admin\PageController.php on line 229
+[21-Aug-2026 17:37:04 Europe/Berlin] PHP Parse error:  syntax error, unexpected token ")" in C:\xampp\htdocs\gmentStck\app\Controllers\Admin\PageController.php on line 229
+[21-Aug-2026 17:37:04 Europe/Berlin] PHP Parse error:  syntax error, unexpected token ")" in C:\xampp\htdocs\gmentStck\app\Controllers\Admin\PageController.php on line 229
+[21-Aug-2026 17:37:04 Europe/Berlin] PHP Parse error:  syntax error, unexpected token ")" in C:\xampp\htdocs\gmentStck\app\Controllers\Admin\PageController.php on line 229
+[21-Aug-2026 17:37:05 Europe/Berlin] PHP Parse error:  syntax error, unexpected token ")" in C:\xampp\htdocs\gmentStck\app\Controllers\Admin\PageController.php on line 229
+[21-Aug-2026 17:37:05 Europe/Berlin] PHP Parse error:  syntax error, unexpected token ")" in C:\xampp\htdocs\gmentStck\app\Controllers\Admin\PageController.php on line 229
+[21-Aug-2026 17:37:05 Europe/Berlin] PHP Parse error:  syntax error, unexpected token ")" in C:\xampp\htdocs\gmentStck\app\Controllers\Admin\PageController.php on line 229
+[21-Aug-2026 17:37:12 Europe/Berlin] PHP Parse error:  syntax error, unexpected token ")" in C:\xampp\htdocs\gmentStck\app\Controllers\Admin\PageController.php on line 229
+[21-Aug-2026 17:37:19 Europe/Berlin] PHP Parse error:  syntax error, unexpected token ")" in C:\xampp\htdocs\gmentStck\app\Controllers\Admin\PageController.php on line 229
+[21-Aug-2026 17:51:24 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= ?' at line 1 in C:\xampp\htdocs\gmentStck\app\Models\PageSection.php:23
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Models\PageSection.php(23): PDO->prepare('DELETE FROM pag...')
+#1 C:\xampp\htdocs\gmentStck\app\Controllers\Admin\PageController.php(217): App\Models\PageSection::deleteByPage(2)
+#2 C:\xampp\htdocs\gmentStck\app\Controllers\Admin\PageController.php(70): App\Controllers\Admin\PageController->saveSections(2, Array, Array)
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\Admin\PageController->store()
+#4 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#5 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('POST', '/admin/pages')
+#6 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Models\PageSection.php on line 23
+[22-Aug-2026 02:28:35 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'gmentstck.page_services' doesn't exist in C:\xampp\htdocs\gmentStck\app\Models\PageService.php:13
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Models\PageService.php(13): PDO->prepare('SELECT * FROM p...')
+#1 C:\xampp\htdocs\gmentStck\app\Controllers\Admin\PageController.php(90): App\Models\PageService::allByPage(3)
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\Admin\PageController->edit('3')
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#4 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/admin/pages/3/...')
+#5 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Models\PageService.php on line 13
+[22-Aug-2026 02:35:07 Europe/Berlin] PHP Fatal error:  Uncaught RuntimeException: View não encontrada: home/profissional in C:\xampp\htdocs\gmentStck\app\Core\Controller.php:16
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(48): App\Core\Controller->view('home/profission...', Array)
+#1 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(40): App\Controllers\PageController->renderPage(Array)
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('advocaciair')
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#4 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/advocaciair')
+#5 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Core\Controller.php on line 16
+[22-Aug-2026 02:35:08 Europe/Berlin] PHP Fatal error:  Uncaught RuntimeException: View não encontrada: home/profissional in C:\xampp\htdocs\gmentStck\app\Core\Controller.php:16
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(48): App\Core\Controller->view('home/profission...', Array)
+#1 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(40): App\Controllers\PageController->renderPage(Array)
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('advocaciair')
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#4 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/advocaciair')
+#5 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Core\Controller.php on line 16
+[22-Aug-2026 02:35:09 Europe/Berlin] PHP Fatal error:  Uncaught RuntimeException: View não encontrada: home/profissional in C:\xampp\htdocs\gmentStck\app\Core\Controller.php:16
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(48): App\Core\Controller->view('home/profission...', Array)
+#1 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(40): App\Controllers\PageController->renderPage(Array)
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('advocaciair')
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#4 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/advocaciair')
+#5 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Core\Controller.php on line 16
+[22-Aug-2026 02:35:10 Europe/Berlin] PHP Fatal error:  Uncaught RuntimeException: View não encontrada: home/profissional in C:\xampp\htdocs\gmentStck\app\Core\Controller.php:16
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(48): App\Core\Controller->view('home/profission...', Array)
+#1 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(40): App\Controllers\PageController->renderPage(Array)
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('advocaciair')
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#4 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/advocaciair')
+#5 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Core\Controller.php on line 16
+[22-Aug-2026 02:35:11 Europe/Berlin] PHP Fatal error:  Uncaught RuntimeException: View não encontrada: home/profissional in C:\xampp\htdocs\gmentStck\app\Core\Controller.php:16
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(48): App\Core\Controller->view('home/profission...', Array)
+#1 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(40): App\Controllers\PageController->renderPage(Array)
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('advocaciair')
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#4 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/advocaciair')
+#5 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Core\Controller.php on line 16
+[22-Aug-2026 02:35:11 Europe/Berlin] PHP Fatal error:  Uncaught RuntimeException: View não encontrada: home/profissional in C:\xampp\htdocs\gmentStck\app\Core\Controller.php:16
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(48): App\Core\Controller->view('home/profission...', Array)
+#1 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(40): App\Controllers\PageController->renderPage(Array)
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('advocaciair')
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#4 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/advocaciair')
+#5 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Core\Controller.php on line 16
+[22-Aug-2026 02:35:11 Europe/Berlin] PHP Fatal error:  Uncaught RuntimeException: View não encontrada: home/profissional in C:\xampp\htdocs\gmentStck\app\Core\Controller.php:16
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(48): App\Core\Controller->view('home/profission...', Array)
+#1 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(40): App\Controllers\PageController->renderPage(Array)
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('advocaciair')
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#4 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/advocaciair')
+#5 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Core\Controller.php on line 16
+[22-Aug-2026 02:35:11 Europe/Berlin] PHP Fatal error:  Uncaught RuntimeException: View não encontrada: home/profissional in C:\xampp\htdocs\gmentStck\app\Core\Controller.php:16
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(48): App\Core\Controller->view('home/profission...', Array)
+#1 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(40): App\Controllers\PageController->renderPage(Array)
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('advocaciair')
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#4 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/advocaciair')
+#5 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Core\Controller.php on line 16
+[22-Aug-2026 02:35:36 Europe/Berlin] PHP Fatal error:  Uncaught RuntimeException: View não encontrada: home/profissional in C:\xampp\htdocs\gmentStck\app\Core\Controller.php:16
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(48): App\Core\Controller->view('home/profission...', Array)
+#1 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(40): App\Controllers\PageController->renderPage(Array)
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('advocaciair')
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#4 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/advocaciair')
+#5 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Core\Controller.php on line 16
+[22-Aug-2026 02:35:40 Europe/Berlin] PHP Fatal error:  Uncaught RuntimeException: View não encontrada: home/profissional in C:\xampp\htdocs\gmentStck\app\Core\Controller.php:16
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(48): App\Core\Controller->view('home/profission...', Array)
+#1 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(40): App\Controllers\PageController->renderPage(Array)
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('advocaciair')
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#4 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/advocaciair')
+#5 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Core\Controller.php on line 16
+[28-Aug-2026 22:31:55 Europe/Berlin] PHP Parse error:  syntax error, unexpected token ";", expecting "]" in C:\xampp\htdocs\gmentStck\app\Controllers\Admin\PageController.php on line 224
+[28-Aug-2026 22:31:57 Europe/Berlin] PHP Parse error:  syntax error, unexpected token ";", expecting "]" in C:\xampp\htdocs\gmentStck\app\Controllers\Admin\PageController.php on line 224
+[28-Aug-2026 22:32:06 Europe/Berlin] PHP Parse error:  syntax error, unexpected token ";", expecting "]" in C:\xampp\htdocs\gmentStck\app\Controllers\Admin\PageController.php on line 224
+[28-Aug-2026 22:51:30 Europe/Berlin] PHP Warning:  Undefined array key "image_caption" in C:\xampp\htdocs\gmentStck\app\Views\admin\pages\edit.php on line 107
+[31-Aug-2026 17:42:01 Europe/Berlin] PHP Warning:  Undefined array key "image" in C:\xampp\htdocs\gmentStck\app\Models\PageSection.php on line 39
+[31-Aug-2026 17:42:50 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'image_caption' in 'field list' in C:\xampp\htdocs\gmentStck\app\Models\PageSection.php:30
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Models\PageSection.php(30): PDO->prepare('INSERT INTO pag...')
+#1 C:\xampp\htdocs\gmentStck\app\Controllers\Admin\PageController.php(274): App\Models\PageSection::create(Array)
+#2 C:\xampp\htdocs\gmentStck\app\Controllers\Admin\PageController.php(133): App\Controllers\Admin\PageController->saveSections(4, Array, Array)
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\Admin\PageController->update('4')
+#4 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#5 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('POST', '/admin/pages/4')
+#6 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Models\PageSection.php on line 30
+[31-Aug-2026 17:43:33 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'image_caption' in 'field list' in C:\xampp\htdocs\gmentStck\app\Models\PageSection.php:30
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Models\PageSection.php(30): PDO->prepare('INSERT INTO pag...')
+#1 C:\xampp\htdocs\gmentStck\app\Controllers\Admin\PageController.php(274): App\Models\PageSection::create(Array)
+#2 C:\xampp\htdocs\gmentStck\app\Controllers\Admin\PageController.php(133): App\Controllers\Admin\PageController->saveSections(4, Array, Array)
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\Admin\PageController->update('4')
+#4 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#5 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('POST', '/admin/pages/4')
+#6 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Models\PageSection.php on line 30
+[31-Aug-2026 17:43:34 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'image_caption' in 'field list' in C:\xampp\htdocs\gmentStck\app\Models\PageSection.php:30
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Models\PageSection.php(30): PDO->prepare('INSERT INTO pag...')
+#1 C:\xampp\htdocs\gmentStck\app\Controllers\Admin\PageController.php(274): App\Models\PageSection::create(Array)
+#2 C:\xampp\htdocs\gmentStck\app\Controllers\Admin\PageController.php(133): App\Controllers\Admin\PageController->saveSections(4, Array, Array)
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\Admin\PageController->update('4')
+#4 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#5 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('POST', '/admin/pages/4')
+#6 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Models\PageSection.php on line 30
+[31-Aug-2026 17:43:47 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in C:\xampp\htdocs\gmentStck\app\Models\PageSection.php:34
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Models\PageSection.php(34): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\gmentStck\app\Controllers\Admin\PageController.php(274): App\Models\PageSection::create(Array)
+#2 C:\xampp\htdocs\gmentStck\app\Controllers\Admin\PageController.php(133): App\Controllers\Admin\PageController->saveSections(4, Array, Array)
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\Admin\PageController->update('4')
+#4 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#5 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('POST', '/admin/pages/4')
+#6 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Models\PageSection.php on line 34
+[31-Aug-2026 17:43:48 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in C:\xampp\htdocs\gmentStck\app\Models\PageSection.php:34
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Models\PageSection.php(34): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\gmentStck\app\Controllers\Admin\PageController.php(274): App\Models\PageSection::create(Array)
+#2 C:\xampp\htdocs\gmentStck\app\Controllers\Admin\PageController.php(133): App\Controllers\Admin\PageController->saveSections(4, Array, Array)
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\Admin\PageController->update('4')
+#4 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#5 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('POST', '/admin/pages/4')
+#6 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Models\PageSection.php on line 34
+[04-Sep-2026 03:48:22 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method App\Models\PageFaq::allByPage() in C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php:54
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(41): App\Controllers\PageController->renderPage(Array)
+#1 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('iradvocacia')
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#3 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/iradvocacia')
+#4 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php on line 54
+[04-Sep-2026 03:48:27 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method App\Models\PageFaq::allByPage() in C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php:54
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(41): App\Controllers\PageController->renderPage(Array)
+#1 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('iradvocacia')
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#3 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/iradvocacia')
+#4 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php on line 54
+[04-Sep-2026 03:48:28 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method App\Models\PageFaq::allByPage() in C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php:54
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(41): App\Controllers\PageController->renderPage(Array)
+#1 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('iradvocacia')
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#3 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/iradvocacia')
+#4 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php on line 54
+[04-Sep-2026 03:48:33 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method App\Models\PageFaq::allByPage() in C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php:54
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(41): App\Controllers\PageController->renderPage(Array)
+#1 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('iradvocacia')
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#3 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/iradvocacia')
+#4 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php on line 54
+[04-Sep-2026 03:49:24 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method App\Models\PageFaq::allByPage() in C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php:54
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(41): App\Controllers\PageController->renderPage(Array)
+#1 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('iradvocacia')
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#3 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/iradvocacia')
+#4 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php on line 54
+[04-Sep-2026 03:49:25 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method App\Models\PageFaq::allByPage() in C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php:54
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(41): App\Controllers\PageController->renderPage(Array)
+#1 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('iradvocacia')
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#3 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/iradvocacia')
+#4 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php on line 54
+[04-Sep-2026 03:49:34 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method App\Models\PageFaq::allByPage() in C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php:54
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(41): App\Controllers\PageController->renderPage(Array)
+#1 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('iradvocacia')
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#3 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/iradvocacia')
+#4 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php on line 54
+[04-Sep-2026 03:49:36 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method App\Models\PageFaq::allByPage() in C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php:54
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(41): App\Controllers\PageController->renderPage(Array)
+#1 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('iradvocacia')
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#3 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/iradvocacia')
+#4 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php on line 54
+[04-Sep-2026 03:50:48 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method App\Models\PageFaq::allByPage() in C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php:54
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(41): App\Controllers\PageController->renderPage(Array)
+#1 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('iradvocacia')
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#3 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/iradvocacia')
+#4 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php on line 54
+[04-Sep-2026 03:50:48 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method App\Models\PageFaq::allByPage() in C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php:54
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(41): App\Controllers\PageController->renderPage(Array)
+#1 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('iradvocacia')
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#3 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/iradvocacia')
+#4 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php on line 54
+[04-Sep-2026 03:50:48 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method App\Models\PageFaq::allByPage() in C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php:54
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(41): App\Controllers\PageController->renderPage(Array)
+#1 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('iradvocacia')
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#3 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/iradvocacia')
+#4 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php on line 54
+[04-Sep-2026 03:54:07 Europe/Berlin] PHP Warning:  Undefined variable $faqs in C:\xampp\htdocs\gmentStck\app\Views\admin\pages\edit.php on line 231
+[04-Sep-2026 03:54:07 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\gmentStck\app\Views\admin\pages\edit.php on line 231
+[04-Sep-2026 03:54:07 Europe/Berlin] PHP Warning:  Undefined variable $faqs in C:\xampp\htdocs\gmentStck\app\Views\admin\pages\edit.php on line 286
+[04-Sep-2026 03:54:07 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\gmentStck\app\Views\admin\pages\edit.php:286
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(26): require()
+#1 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(27): App\Core\Controller::App\Core\{closure}('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\gmentStck\app\Controllers\Admin\PageController.php(87): App\Core\Controller->view('admin/pages/edi...', Array)
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\Admin\PageController->edit('4')
+#4 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#5 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/admin/pages/4/...')
+#6 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Views\admin\pages\edit.php on line 286
+[04-Sep-2026 03:55:39 Europe/Berlin] PHP Warning:  Undefined variable $faqs in C:\xampp\htdocs\gmentStck\app\Views\admin\pages\edit.php on line 231
+[04-Sep-2026 03:55:39 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\gmentStck\app\Views\admin\pages\edit.php on line 231
+[04-Sep-2026 03:55:39 Europe/Berlin] PHP Warning:  Undefined variable $faqs in C:\xampp\htdocs\gmentStck\app\Views\admin\pages\edit.php on line 286
+[04-Sep-2026 03:55:39 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\gmentStck\app\Views\admin\pages\edit.php:286
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(26): require()
+#1 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(27): App\Core\Controller::App\Core\{closure}('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\gmentStck\app\Controllers\Admin\PageController.php(87): App\Core\Controller->view('admin/pages/edi...', Array)
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\Admin\PageController->edit('4')
+#4 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#5 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/admin/pages/4/...')
+#6 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Views\admin\pages\edit.php on line 286
+[04-Sep-2026 03:58:02 Europe/Berlin] PHP Warning:  Undefined variable $faqs in C:\xampp\htdocs\gmentStck\app\Views\admin\pages\edit.php on line 259
+[04-Sep-2026 03:58:02 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\gmentStck\app\Views\admin\pages\edit.php on line 259
+[04-Sep-2026 03:58:02 Europe/Berlin] PHP Warning:  Undefined variable $faqs in C:\xampp\htdocs\gmentStck\app\Views\admin\pages\edit.php on line 314
+[04-Sep-2026 03:58:02 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\gmentStck\app\Views\admin\pages\edit.php:314
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(26): require()
+#1 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(27): App\Core\Controller::App\Core\{closure}('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\gmentStck\app\Controllers\Admin\PageController.php(87): App\Core\Controller->view('admin/pages/edi...', Array)
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\Admin\PageController->edit('4')
+#4 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#5 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/admin/pages/4/...')
+#6 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Views\admin\pages\edit.php on line 314
+[04-Sep-2026 03:58:27 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' = ?, cta_secondary_link = ?,
+                whatsapp = ?, map_address = ?, ...' at line 6 in C:\xampp\htdocs\gmentStck\app\Models\Page.php:102
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Models\Page.php(102): PDO->prepare('UPDATE pages SE...')
+#1 C:\xampp\htdocs\gmentStck\app\Controllers\Admin\PageController.php(129): App\Models\Page::update(4, Array)
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\Admin\PageController->update('4')
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#4 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('POST', '/admin/pages/4')
+#5 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Models\Page.php on line 102
+[04-Sep-2026 04:00:37 Europe/Berlin] PHP Warning:  Undefined array key "hero_eyebrow" in C:\xampp\htdocs\gmentStck\app\Models\Page.php on line 122
+[04-Sep-2026 04:00:37 Europe/Berlin] PHP Warning:  Undefined array key "title_highlight" in C:\xampp\htdocs\gmentStck\app\Models\Page.php on line 123
+[04-Sep-2026 04:00:37 Europe/Berlin] PHP Warning:  Undefined array key "trust_badges" in C:\xampp\htdocs\gmentStck\app\Models\Page.php on line 124
+[04-Sep-2026 04:00:37 Europe/Berlin] PHP Warning:  Undefined array key "cta_secondary_text" in C:\xampp\htdocs\gmentStck\app\Models\Page.php on line 128
+[04-Sep-2026 04:00:37 Europe/Berlin] PHP Warning:  Undefined array key "cta_secondary_link" in C:\xampp\htdocs\gmentStck\app\Models\Page.php on line 129
+[04-Sep-2026 04:00:38 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away in C:\xampp\htdocs\gmentStck\app\Models\PageService.php:24
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Models\PageService.php(24): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\gmentStck\app\Controllers\Admin\PageController.php(286): App\Models\PageService::deleteByPage(4)
+#2 C:\xampp\htdocs\gmentStck\app\Controllers\Admin\PageController.php(134): App\Controllers\Admin\PageController->saveServices(4, Array)
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\Admin\PageController->update('4')
+#4 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#5 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('POST', '/admin/pages/4')
+#6 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Models\PageService.php on line 24
+[04-Sep-2026 04:01:05 Europe/Berlin] PHP Warning:  Undefined array key "hero_eyebrow" in C:\xampp\htdocs\gmentStck\app\Models\Page.php on line 122
+[04-Sep-2026 04:01:05 Europe/Berlin] PHP Warning:  Undefined array key "title_highlight" in C:\xampp\htdocs\gmentStck\app\Models\Page.php on line 123
+[04-Sep-2026 04:01:05 Europe/Berlin] PHP Warning:  Undefined array key "trust_badges" in C:\xampp\htdocs\gmentStck\app\Models\Page.php on line 124
+[04-Sep-2026 04:01:05 Europe/Berlin] PHP Warning:  Undefined array key "cta_secondary_text" in C:\xampp\htdocs\gmentStck\app\Models\Page.php on line 128
+[04-Sep-2026 04:01:05 Europe/Berlin] PHP Warning:  Undefined array key "cta_secondary_link" in C:\xampp\htdocs\gmentStck\app\Models\Page.php on line 129
+[04-Sep-2026 04:01:07 Europe/Berlin] PHP Warning:  Undefined variable $faqs in C:\xampp\htdocs\gmentStck\app\Views\admin\pages\edit.php on line 259
+[04-Sep-2026 04:01:07 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\gmentStck\app\Views\admin\pages\edit.php on line 259
+[04-Sep-2026 04:01:07 Europe/Berlin] PHP Warning:  Undefined variable $faqs in C:\xampp\htdocs\gmentStck\app\Views\admin\pages\edit.php on line 314
+[04-Sep-2026 04:01:07 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\gmentStck\app\Views\admin\pages\edit.php:314
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(26): require()
+#1 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(27): App\Core\Controller::App\Core\{closure}('C:\\xampp\\htdocs...', Array)
+#2 C:\xampp\htdocs\gmentStck\app\Controllers\Admin\PageController.php(87): App\Core\Controller->view('admin/pages/edi...', Array)
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\Admin\PageController->edit('4')
+#4 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#5 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/admin/pages/4/...')
+#6 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Views\admin\pages\edit.php on line 314
+[04-Sep-2026 04:01:49 Europe/Berlin] PHP Warning:  Undefined array key "hero_eyebrow" in C:\xampp\htdocs\gmentStck\app\Models\Page.php on line 122
+[04-Sep-2026 04:01:49 Europe/Berlin] PHP Warning:  Undefined array key "title_highlight" in C:\xampp\htdocs\gmentStck\app\Models\Page.php on line 123
+[04-Sep-2026 04:01:49 Europe/Berlin] PHP Warning:  Undefined array key "trust_badges" in C:\xampp\htdocs\gmentStck\app\Models\Page.php on line 124
+[04-Sep-2026 04:01:49 Europe/Berlin] PHP Warning:  Undefined array key "cta_secondary_text" in C:\xampp\htdocs\gmentStck\app\Models\Page.php on line 128
+[04-Sep-2026 04:01:49 Europe/Berlin] PHP Warning:  Undefined array key "cta_secondary_link" in C:\xampp\htdocs\gmentStck\app\Models\Page.php on line 129
+[04-Sep-2026 04:04:44 Europe/Berlin] PHP Warning:  Undefined array key "image_caption" in C:\xampp\htdocs\gmentStck\app\Models\PageSection.php on line 39
+[04-Sep-2026 05:58:35 Europe/Berlin] PHP Warning:  Undefined array key "image_caption" in C:\xampp\htdocs\gmentStck\app\Models\PageSection.php on line 39
+[04-Sep-2026 05:58:35 Europe/Berlin] PHP Warning:  Undefined array key "image_caption" in C:\xampp\htdocs\gmentStck\app\Models\PageSection.php on line 39
+[09-Sep-2026 00:22:31 Europe/Berlin] PHP Warning:  Unsupported declare 'strict_tyypes' in C:\xampp\htdocs\gmentStck\app\Models\PageStep.php on line 3
+[09-Sep-2026 00:22:31 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mb_strlen(): Argument #1 ($string) must be of type string, bool given in C:\xampp\htdocs\gmentStck\app\Core\helpers.php:154
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Core\helpers.php(154): mb_strlen(true)
+#1 C:\xampp\htdocs\gmentStck\app\Views\home\profissional.php(34): initials('Advocacia com A...')
+#2 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(26): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(27): App\Core\Controller::App\Core\{closure}('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(50): App\Core\Controller->view('home/profission...', Array)
+#5 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(42): App\Controllers\PageController->renderPage(Array)
+#6 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('iradvocacia')
+#7 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#8 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/iradvocacia')
+#9 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Core\helpers.php on line 154
+[09-Sep-2026 00:22:36 Europe/Berlin] PHP Warning:  Unsupported declare 'strict_tyypes' in C:\xampp\htdocs\gmentStck\app\Models\PageStep.php on line 3
+[09-Sep-2026 00:22:36 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mb_strlen(): Argument #1 ($string) must be of type string, bool given in C:\xampp\htdocs\gmentStck\app\Core\helpers.php:154
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Core\helpers.php(154): mb_strlen(true)
+#1 C:\xampp\htdocs\gmentStck\app\Views\home\profissional.php(34): initials('Advocacia com A...')
+#2 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(26): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(27): App\Core\Controller::App\Core\{closure}('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(50): App\Core\Controller->view('home/profission...', Array)
+#5 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(42): App\Controllers\PageController->renderPage(Array)
+#6 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('iradvocacia')
+#7 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#8 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/iradvocacia')
+#9 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Core\helpers.php on line 154
+[09-Sep-2026 00:22:40 Europe/Berlin] PHP Warning:  Unsupported declare 'strict_tyypes' in C:\xampp\htdocs\gmentStck\app\Models\PageStep.php on line 3
+[09-Sep-2026 00:22:40 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mb_strlen(): Argument #1 ($string) must be of type string, bool given in C:\xampp\htdocs\gmentStck\app\Core\helpers.php:154
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Core\helpers.php(154): mb_strlen(true)
+#1 C:\xampp\htdocs\gmentStck\app\Views\home\profissional.php(34): initials('Advocacia com A...')
+#2 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(26): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(27): App\Core\Controller::App\Core\{closure}('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(50): App\Core\Controller->view('home/profission...', Array)
+#5 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(42): App\Controllers\PageController->renderPage(Array)
+#6 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('iradvocacia')
+#7 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#8 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/iradvocacia')
+#9 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Core\helpers.php on line 154
+[09-Sep-2026 00:22:44 Europe/Berlin] PHP Warning:  Unsupported declare 'strict_tyypes' in C:\xampp\htdocs\gmentStck\app\Models\PageStep.php on line 3
+[09-Sep-2026 00:22:44 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mb_strlen(): Argument #1 ($string) must be of type string, bool given in C:\xampp\htdocs\gmentStck\app\Core\helpers.php:154
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Core\helpers.php(154): mb_strlen(true)
+#1 C:\xampp\htdocs\gmentStck\app\Views\home\profissional.php(34): initials('Advocacia com A...')
+#2 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(26): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(27): App\Core\Controller::App\Core\{closure}('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(50): App\Core\Controller->view('home/profission...', Array)
+#5 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(42): App\Controllers\PageController->renderPage(Array)
+#6 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('iradvocacia')
+#7 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#8 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/iradvocacia')
+#9 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Core\helpers.php on line 154
+[09-Sep-2026 00:22:56 Europe/Berlin] PHP Warning:  Unsupported declare 'strict_tyypes' in C:\xampp\htdocs\gmentStck\app\Models\PageStep.php on line 3
+[09-Sep-2026 00:23:12 Europe/Berlin] PHP Warning:  Undefined array key "image_caption" in C:\xampp\htdocs\gmentStck\app\Models\PageSection.php on line 39
+[09-Sep-2026 00:23:12 Europe/Berlin] PHP Warning:  Undefined array key "image_caption" in C:\xampp\htdocs\gmentStck\app\Models\PageSection.php on line 39
+[09-Sep-2026 00:23:12 Europe/Berlin] PHP Warning:  Unsupported declare 'strict_tyypes' in C:\xampp\htdocs\gmentStck\app\Models\PageStep.php on line 3
+[09-Sep-2026 00:23:12 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method App\Models\PageStep::deleteByPage() in C:\xampp\htdocs\gmentStck\app\Controllers\Admin\PageController.php:429
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Controllers\Admin\PageController.php(149): App\Controllers\Admin\PageController->saveSteps(4, Array)
+#1 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\Admin\PageController->update('4')
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#3 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('POST', '/admin/pages/4')
+#4 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Controllers\Admin\PageController.php on line 429
+[09-Sep-2026 00:23:16 Europe/Berlin] PHP Warning:  Undefined array key "image_caption" in C:\xampp\htdocs\gmentStck\app\Models\PageSection.php on line 39
+[09-Sep-2026 00:23:16 Europe/Berlin] PHP Warning:  Undefined array key "image_caption" in C:\xampp\htdocs\gmentStck\app\Models\PageSection.php on line 39
+[09-Sep-2026 00:23:17 Europe/Berlin] PHP Warning:  Unsupported declare 'strict_tyypes' in C:\xampp\htdocs\gmentStck\app\Models\PageStep.php on line 3
+[09-Sep-2026 00:23:17 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method App\Models\PageStep::deleteByPage() in C:\xampp\htdocs\gmentStck\app\Controllers\Admin\PageController.php:429
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Controllers\Admin\PageController.php(149): App\Controllers\Admin\PageController->saveSteps(4, Array)
+#1 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\Admin\PageController->update('4')
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#3 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('POST', '/admin/pages/4')
+#4 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Controllers\Admin\PageController.php on line 429
+[09-Sep-2026 00:23:22 Europe/Berlin] Erro de conexão com o banco: SQLSTATE[HY000] [2002] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+[09-Sep-2026 00:23:22 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: Não foi possível conectar ao banco de dados. in C:\xampp\htdocs\gmentStck\app\Core\Database.php:35
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Models\Page.php(32): App\Core\Database::getConnection()
+#1 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(22): App\Models\Page::findBySlug('inicio')
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->home()
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#4 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/')
+#5 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Core\Database.php on line 35
+[09-Sep-2026 00:23:28 Europe/Berlin] PHP Warning:  Unsupported declare 'strict_tyypes' in C:\xampp\htdocs\gmentStck\app\Models\PageStep.php on line 3
+[09-Sep-2026 00:23:28 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mb_strlen(): Argument #1 ($string) must be of type string, bool given in C:\xampp\htdocs\gmentStck\app\Core\helpers.php:154
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Core\helpers.php(154): mb_strlen(true)
+#1 C:\xampp\htdocs\gmentStck\app\Views\home\profissional.php(34): initials('Advocacia com A...')
+#2 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(26): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(27): App\Core\Controller::App\Core\{closure}('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(50): App\Core\Controller->view('home/profission...', Array)
+#5 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(42): App\Controllers\PageController->renderPage(Array)
+#6 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('iradvocacia')
+#7 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#8 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/iradvocacia')
+#9 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Core\helpers.php on line 154
+[09-Sep-2026 00:23:29 Europe/Berlin] PHP Warning:  Unsupported declare 'strict_tyypes' in C:\xampp\htdocs\gmentStck\app\Models\PageStep.php on line 3
+[09-Sep-2026 00:23:29 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mb_strlen(): Argument #1 ($string) must be of type string, bool given in C:\xampp\htdocs\gmentStck\app\Core\helpers.php:154
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Core\helpers.php(154): mb_strlen(true)
+#1 C:\xampp\htdocs\gmentStck\app\Views\home\profissional.php(34): initials('Advocacia com A...')
+#2 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(26): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(27): App\Core\Controller::App\Core\{closure}('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(50): App\Core\Controller->view('home/profission...', Array)
+#5 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(42): App\Controllers\PageController->renderPage(Array)
+#6 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('iradvocacia')
+#7 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#8 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/iradvocacia')
+#9 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Core\helpers.php on line 154
+[09-Sep-2026 00:23:30 Europe/Berlin] PHP Warning:  Unsupported declare 'strict_tyypes' in C:\xampp\htdocs\gmentStck\app\Models\PageStep.php on line 3
+[09-Sep-2026 00:23:30 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mb_strlen(): Argument #1 ($string) must be of type string, bool given in C:\xampp\htdocs\gmentStck\app\Core\helpers.php:154
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Core\helpers.php(154): mb_strlen(true)
+#1 C:\xampp\htdocs\gmentStck\app\Views\home\profissional.php(34): initials('Advocacia com A...')
+#2 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(26): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(27): App\Core\Controller::App\Core\{closure}('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(50): App\Core\Controller->view('home/profission...', Array)
+#5 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(42): App\Controllers\PageController->renderPage(Array)
+#6 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('iradvocacia')
+#7 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#8 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/iradvocacia')
+#9 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Core\helpers.php on line 154
+[09-Sep-2026 00:23:31 Europe/Berlin] PHP Warning:  Unsupported declare 'strict_tyypes' in C:\xampp\htdocs\gmentStck\app\Models\PageStep.php on line 3
+[09-Sep-2026 00:23:31 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mb_strlen(): Argument #1 ($string) must be of type string, bool given in C:\xampp\htdocs\gmentStck\app\Core\helpers.php:154
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Core\helpers.php(154): mb_strlen(true)
+#1 C:\xampp\htdocs\gmentStck\app\Views\home\profissional.php(34): initials('Advocacia com A...')
+#2 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(26): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(27): App\Core\Controller::App\Core\{closure}('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(50): App\Core\Controller->view('home/profission...', Array)
+#5 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(42): App\Controllers\PageController->renderPage(Array)
+#6 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('iradvocacia')
+#7 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#8 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/iradvocacia')
+#9 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Core\helpers.php on line 154
+[09-Sep-2026 00:23:31 Europe/Berlin] PHP Warning:  Unsupported declare 'strict_tyypes' in C:\xampp\htdocs\gmentStck\app\Models\PageStep.php on line 3
+[09-Sep-2026 00:23:31 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mb_strlen(): Argument #1 ($string) must be of type string, bool given in C:\xampp\htdocs\gmentStck\app\Core\helpers.php:154
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Core\helpers.php(154): mb_strlen(true)
+#1 C:\xampp\htdocs\gmentStck\app\Views\home\profissional.php(34): initials('Advocacia com A...')
+#2 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(26): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(27): App\Core\Controller::App\Core\{closure}('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(50): App\Core\Controller->view('home/profission...', Array)
+#5 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(42): App\Controllers\PageController->renderPage(Array)
+#6 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('iradvocacia')
+#7 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#8 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/iradvocacia')
+#9 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Core\helpers.php on line 154
+[09-Sep-2026 00:23:32 Europe/Berlin] PHP Warning:  Unsupported declare 'strict_tyypes' in C:\xampp\htdocs\gmentStck\app\Models\PageStep.php on line 3
+[09-Sep-2026 00:23:32 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mb_strlen(): Argument #1 ($string) must be of type string, bool given in C:\xampp\htdocs\gmentStck\app\Core\helpers.php:154
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Core\helpers.php(154): mb_strlen(true)
+#1 C:\xampp\htdocs\gmentStck\app\Views\home\profissional.php(34): initials('Advocacia com A...')
+#2 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(26): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(27): App\Core\Controller::App\Core\{closure}('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(50): App\Core\Controller->view('home/profission...', Array)
+#5 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(42): App\Controllers\PageController->renderPage(Array)
+#6 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('iradvocacia')
+#7 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#8 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/iradvocacia')
+#9 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Core\helpers.php on line 154
+[09-Sep-2026 00:23:35 Europe/Berlin] PHP Warning:  Unsupported declare 'strict_tyypes' in C:\xampp\htdocs\gmentStck\app\Models\PageStep.php on line 3
+[09-Sep-2026 00:23:35 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mb_strlen(): Argument #1 ($string) must be of type string, bool given in C:\xampp\htdocs\gmentStck\app\Core\helpers.php:154
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Core\helpers.php(154): mb_strlen(true)
+#1 C:\xampp\htdocs\gmentStck\app\Views\home\profissional.php(34): initials('Advocacia com A...')
+#2 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(26): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(27): App\Core\Controller::App\Core\{closure}('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(50): App\Core\Controller->view('home/profission...', Array)
+#5 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(42): App\Controllers\PageController->renderPage(Array)
+#6 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('iradvocacia')
+#7 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#8 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/iradvocacia')
+#9 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Core\helpers.php on line 154
+[09-Sep-2026 00:23:36 Europe/Berlin] PHP Warning:  Unsupported declare 'strict_tyypes' in C:\xampp\htdocs\gmentStck\app\Models\PageStep.php on line 3
+[09-Sep-2026 00:23:36 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mb_strlen(): Argument #1 ($string) must be of type string, bool given in C:\xampp\htdocs\gmentStck\app\Core\helpers.php:154
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Core\helpers.php(154): mb_strlen(true)
+#1 C:\xampp\htdocs\gmentStck\app\Views\home\profissional.php(34): initials('Advocacia com A...')
+#2 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(26): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(27): App\Core\Controller::App\Core\{closure}('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(50): App\Core\Controller->view('home/profission...', Array)
+#5 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(42): App\Controllers\PageController->renderPage(Array)
+#6 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('iradvocacia')
+#7 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#8 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/iradvocacia')
+#9 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Core\helpers.php on line 154
+[09-Sep-2026 00:23:36 Europe/Berlin] PHP Warning:  Unsupported declare 'strict_tyypes' in C:\xampp\htdocs\gmentStck\app\Models\PageStep.php on line 3
+[09-Sep-2026 00:23:36 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mb_strlen(): Argument #1 ($string) must be of type string, bool given in C:\xampp\htdocs\gmentStck\app\Core\helpers.php:154
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Core\helpers.php(154): mb_strlen(true)
+#1 C:\xampp\htdocs\gmentStck\app\Views\home\profissional.php(34): initials('Advocacia com A...')
+#2 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(26): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(27): App\Core\Controller::App\Core\{closure}('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(50): App\Core\Controller->view('home/profission...', Array)
+#5 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(42): App\Controllers\PageController->renderPage(Array)
+#6 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('iradvocacia')
+#7 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#8 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/iradvocacia')
+#9 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Core\helpers.php on line 154
+[09-Sep-2026 00:23:50 Europe/Berlin] PHP Warning:  Unsupported declare 'strict_tyypes' in C:\xampp\htdocs\gmentStck\app\Models\PageStep.php on line 3
+[09-Sep-2026 00:23:50 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mb_strlen(): Argument #1 ($string) must be of type string, bool given in C:\xampp\htdocs\gmentStck\app\Core\helpers.php:154
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Core\helpers.php(154): mb_strlen(true)
+#1 C:\xampp\htdocs\gmentStck\app\Views\home\profissional.php(34): initials('Advocacia com A...')
+#2 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(26): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(27): App\Core\Controller::App\Core\{closure}('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(50): App\Core\Controller->view('home/profission...', Array)
+#5 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(42): App\Controllers\PageController->renderPage(Array)
+#6 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('iradvocacia')
+#7 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#8 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/iradvocacia')
+#9 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Core\helpers.php on line 154
+[09-Sep-2026 00:23:51 Europe/Berlin] PHP Warning:  Unsupported declare 'strict_tyypes' in C:\xampp\htdocs\gmentStck\app\Models\PageStep.php on line 3
+[09-Sep-2026 00:23:51 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mb_strlen(): Argument #1 ($string) must be of type string, bool given in C:\xampp\htdocs\gmentStck\app\Core\helpers.php:154
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Core\helpers.php(154): mb_strlen(true)
+#1 C:\xampp\htdocs\gmentStck\app\Views\home\profissional.php(34): initials('Advocacia com A...')
+#2 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(26): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(27): App\Core\Controller::App\Core\{closure}('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(50): App\Core\Controller->view('home/profission...', Array)
+#5 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(42): App\Controllers\PageController->renderPage(Array)
+#6 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('iradvocacia')
+#7 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#8 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/iradvocacia')
+#9 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Core\helpers.php on line 154
+[09-Sep-2026 00:24:02 Europe/Berlin] PHP Warning:  Unsupported declare 'strict_tyypes' in C:\xampp\htdocs\gmentStck\app\Models\PageStep.php on line 3
+[09-Sep-2026 00:24:04 Europe/Berlin] PHP Warning:  Unsupported declare 'strict_tyypes' in C:\xampp\htdocs\gmentStck\app\Models\PageStep.php on line 3
+[09-Sep-2026 00:24:04 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mb_strlen(): Argument #1 ($string) must be of type string, bool given in C:\xampp\htdocs\gmentStck\app\Core\helpers.php:154
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Core\helpers.php(154): mb_strlen(true)
+#1 C:\xampp\htdocs\gmentStck\app\Views\home\profissional.php(34): initials('Advocacia com A...')
+#2 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(26): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(27): App\Core\Controller::App\Core\{closure}('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(50): App\Core\Controller->view('home/profission...', Array)
+#5 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(42): App\Controllers\PageController->renderPage(Array)
+#6 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('iradvocacia')
+#7 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#8 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/iradvocacia')
+#9 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Core\helpers.php on line 154
+[09-Sep-2026 00:24:05 Europe/Berlin] PHP Warning:  Unsupported declare 'strict_tyypes' in C:\xampp\htdocs\gmentStck\app\Models\PageStep.php on line 3
+[09-Sep-2026 00:24:05 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mb_strlen(): Argument #1 ($string) must be of type string, bool given in C:\xampp\htdocs\gmentStck\app\Core\helpers.php:154
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Core\helpers.php(154): mb_strlen(true)
+#1 C:\xampp\htdocs\gmentStck\app\Views\home\profissional.php(34): initials('Advocacia com A...')
+#2 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(26): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(27): App\Core\Controller::App\Core\{closure}('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(50): App\Core\Controller->view('home/profission...', Array)
+#5 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(42): App\Controllers\PageController->renderPage(Array)
+#6 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('iradvocacia')
+#7 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#8 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/iradvocacia')
+#9 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Core\helpers.php on line 154
+[09-Sep-2026 00:24:05 Europe/Berlin] PHP Warning:  Unsupported declare 'strict_tyypes' in C:\xampp\htdocs\gmentStck\app\Models\PageStep.php on line 3
+[09-Sep-2026 00:24:05 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mb_strlen(): Argument #1 ($string) must be of type string, bool given in C:\xampp\htdocs\gmentStck\app\Core\helpers.php:154
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Core\helpers.php(154): mb_strlen(true)
+#1 C:\xampp\htdocs\gmentStck\app\Views\home\profissional.php(34): initials('Advocacia com A...')
+#2 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(26): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(27): App\Core\Controller::App\Core\{closure}('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(50): App\Core\Controller->view('home/profission...', Array)
+#5 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(42): App\Controllers\PageController->renderPage(Array)
+#6 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('iradvocacia')
+#7 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#8 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/iradvocacia')
+#9 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Core\helpers.php on line 154
+[09-Sep-2026 00:24:15 Europe/Berlin] PHP Warning:  Undefined array key "image_caption" in C:\xampp\htdocs\gmentStck\app\Models\PageSection.php on line 39
+[09-Sep-2026 00:24:15 Europe/Berlin] PHP Warning:  Undefined array key "image_caption" in C:\xampp\htdocs\gmentStck\app\Models\PageSection.php on line 39
+[09-Sep-2026 00:24:15 Europe/Berlin] PHP Warning:  Unsupported declare 'strict_tyypes' in C:\xampp\htdocs\gmentStck\app\Models\PageStep.php on line 3
+[09-Sep-2026 00:24:15 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method App\Models\PageStep::deleteByPage() in C:\xampp\htdocs\gmentStck\app\Controllers\Admin\PageController.php:429
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Controllers\Admin\PageController.php(149): App\Controllers\Admin\PageController->saveSteps(4, Array)
+#1 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\Admin\PageController->update('4')
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#3 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('POST', '/admin/pages/4')
+#4 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Controllers\Admin\PageController.php on line 429
+[09-Sep-2026 00:24:23 Europe/Berlin] PHP Warning:  Undefined array key "image_caption" in C:\xampp\htdocs\gmentStck\app\Models\PageSection.php on line 39
+[09-Sep-2026 00:24:23 Europe/Berlin] PHP Warning:  Undefined array key "image_caption" in C:\xampp\htdocs\gmentStck\app\Models\PageSection.php on line 39
+[09-Sep-2026 00:24:23 Europe/Berlin] PHP Warning:  Unsupported declare 'strict_tyypes' in C:\xampp\htdocs\gmentStck\app\Models\PageStep.php on line 3
+[09-Sep-2026 00:24:23 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method App\Models\PageStep::deleteByPage() in C:\xampp\htdocs\gmentStck\app\Controllers\Admin\PageController.php:429
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Controllers\Admin\PageController.php(149): App\Controllers\Admin\PageController->saveSteps(4, Array)
+#1 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\Admin\PageController->update('4')
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#3 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('POST', '/admin/pages/4')
+#4 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Controllers\Admin\PageController.php on line 429
+[09-Sep-2026 00:28:17 Europe/Berlin] PHP Warning:  Undefined array key "image_caption" in C:\xampp\htdocs\gmentStck\app\Models\PageSection.php on line 39
+[09-Sep-2026 00:28:17 Europe/Berlin] PHP Warning:  Undefined array key "image_caption" in C:\xampp\htdocs\gmentStck\app\Models\PageSection.php on line 39
+[09-Sep-2026 00:28:17 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method App\Models\PageStep::deleteByPage() in C:\xampp\htdocs\gmentStck\app\Controllers\Admin\PageController.php:429
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Controllers\Admin\PageController.php(149): App\Controllers\Admin\PageController->saveSteps(4, Array)
+#1 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\Admin\PageController->update('4')
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#3 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('POST', '/admin/pages/4')
+#4 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Controllers\Admin\PageController.php on line 429
+[09-Sep-2026 00:31:14 Europe/Berlin] PHP Warning:  Undefined array key "image_caption" in C:\xampp\htdocs\gmentStck\app\Models\PageSection.php on line 39
+[09-Sep-2026 00:31:14 Europe/Berlin] PHP Warning:  Undefined array key "image_caption" in C:\xampp\htdocs\gmentStck\app\Models\PageSection.php on line 39
+[09-Sep-2026 00:33:11 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mb_strlen(): Argument #1 ($string) must be of type string, bool given in C:\xampp\htdocs\gmentStck\app\Core\helpers.php:154
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Core\helpers.php(154): mb_strlen(true)
+#1 C:\xampp\htdocs\gmentStck\app\Views\home\profissional.php(34): initials('Advocacia com A...')
+#2 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(26): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(27): App\Core\Controller::App\Core\{closure}('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(50): App\Core\Controller->view('home/profission...', Array)
+#5 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(42): App\Controllers\PageController->renderPage(Array)
+#6 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('iradvocacia')
+#7 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#8 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/iradvocacia')
+#9 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Core\helpers.php on line 154
+[09-Sep-2026 00:33:15 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mb_strlen(): Argument #1 ($string) must be of type string, bool given in C:\xampp\htdocs\gmentStck\app\Core\helpers.php:154
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Core\helpers.php(154): mb_strlen(true)
+#1 C:\xampp\htdocs\gmentStck\app\Views\home\profissional.php(34): initials('Advocacia com A...')
+#2 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(26): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(27): App\Core\Controller::App\Core\{closure}('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(50): App\Core\Controller->view('home/profission...', Array)
+#5 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(42): App\Controllers\PageController->renderPage(Array)
+#6 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('iradvocacia')
+#7 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#8 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/iradvocacia')
+#9 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Core\helpers.php on line 154
+[09-Sep-2026 00:33:16 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mb_strlen(): Argument #1 ($string) must be of type string, bool given in C:\xampp\htdocs\gmentStck\app\Core\helpers.php:154
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Core\helpers.php(154): mb_strlen(true)
+#1 C:\xampp\htdocs\gmentStck\app\Views\home\profissional.php(34): initials('Advocacia com A...')
+#2 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(26): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(27): App\Core\Controller::App\Core\{closure}('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(50): App\Core\Controller->view('home/profission...', Array)
+#5 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(42): App\Controllers\PageController->renderPage(Array)
+#6 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('iradvocacia')
+#7 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#8 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/iradvocacia')
+#9 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Core\helpers.php on line 154
+[09-Sep-2026 00:33:29 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method App\Models\PageStep::deleteByPage() in C:\xampp\htdocs\gmentStck\app\Controllers\Admin\PageController.php:429
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Controllers\Admin\PageController.php(149): App\Controllers\Admin\PageController->saveSteps(4, Array)
+#1 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\Admin\PageController->update('4')
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#3 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('POST', '/admin/pages/4')
+#4 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Controllers\Admin\PageController.php on line 429
+[09-Sep-2026 00:35:56 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method App\Models\PageStep::deleteByPage() in C:\xampp\htdocs\gmentStck\app\Controllers\Admin\PageController.php:429
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Controllers\Admin\PageController.php(149): App\Controllers\Admin\PageController->saveSteps(4, Array)
+#1 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\Admin\PageController->update('4')
+#2 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#3 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('POST', '/admin/pages/4')
+#4 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Controllers\Admin\PageController.php on line 429
+[09-Sep-2026 00:42:53 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mb_strlen(): Argument #1 ($string) must be of type string, bool given in C:\xampp\htdocs\gmentStck\app\Core\helpers.php:154
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Core\helpers.php(154): mb_strlen(true)
+#1 C:\xampp\htdocs\gmentStck\app\Views\home\profissional.php(34): initials('Advocacia com A...')
+#2 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(26): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(27): App\Core\Controller::App\Core\{closure}('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(50): App\Core\Controller->view('home/profission...', Array)
+#5 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(42): App\Controllers\PageController->renderPage(Array)
+#6 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('iradvocacia')
+#7 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#8 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/iradvocacia')
+#9 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Core\helpers.php on line 154
+[09-Sep-2026 00:42:54 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mb_strlen(): Argument #1 ($string) must be of type string, bool given in C:\xampp\htdocs\gmentStck\app\Core\helpers.php:154
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Core\helpers.php(154): mb_strlen(true)
+#1 C:\xampp\htdocs\gmentStck\app\Views\home\profissional.php(34): initials('Advocacia com A...')
+#2 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(26): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(27): App\Core\Controller::App\Core\{closure}('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(50): App\Core\Controller->view('home/profission...', Array)
+#5 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(42): App\Controllers\PageController->renderPage(Array)
+#6 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('iradvocacia')
+#7 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#8 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/iradvocacia')
+#9 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Core\helpers.php on line 154
+[09-Sep-2026 00:42:56 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mb_strlen(): Argument #1 ($string) must be of type string, bool given in C:\xampp\htdocs\gmentStck\app\Core\helpers.php:154
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Core\helpers.php(154): mb_strlen(true)
+#1 C:\xampp\htdocs\gmentStck\app\Views\home\profissional.php(34): initials('Advocacia com A...')
+#2 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(26): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(27): App\Core\Controller::App\Core\{closure}('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(50): App\Core\Controller->view('home/profission...', Array)
+#5 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(42): App\Controllers\PageController->renderPage(Array)
+#6 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('iradvocacia')
+#7 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#8 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/iradvocacia')
+#9 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Core\helpers.php on line 154
+[09-Sep-2026 00:42:56 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mb_strlen(): Argument #1 ($string) must be of type string, bool given in C:\xampp\htdocs\gmentStck\app\Core\helpers.php:154
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Core\helpers.php(154): mb_strlen(true)
+#1 C:\xampp\htdocs\gmentStck\app\Views\home\profissional.php(34): initials('Advocacia com A...')
+#2 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(26): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(27): App\Core\Controller::App\Core\{closure}('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(50): App\Core\Controller->view('home/profission...', Array)
+#5 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(42): App\Controllers\PageController->renderPage(Array)
+#6 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('iradvocacia')
+#7 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#8 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/iradvocacia')
+#9 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Core\helpers.php on line 154
+[09-Sep-2026 00:42:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mb_strlen(): Argument #1 ($string) must be of type string, bool given in C:\xampp\htdocs\gmentStck\app\Core\helpers.php:154
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Core\helpers.php(154): mb_strlen(true)
+#1 C:\xampp\htdocs\gmentStck\app\Views\home\profissional.php(34): initials('Advocacia com A...')
+#2 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(26): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(27): App\Core\Controller::App\Core\{closure}('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(50): App\Core\Controller->view('home/profission...', Array)
+#5 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(42): App\Controllers\PageController->renderPage(Array)
+#6 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('iradvocacia')
+#7 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#8 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/iradvocacia')
+#9 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Core\helpers.php on line 154
+[09-Sep-2026 00:43:00 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mb_strlen(): Argument #1 ($string) must be of type string, bool given in C:\xampp\htdocs\gmentStck\app\Core\helpers.php:154
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Core\helpers.php(154): mb_strlen(true)
+#1 C:\xampp\htdocs\gmentStck\app\Views\home\profissional.php(34): initials('Advocacia com A...')
+#2 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(26): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(27): App\Core\Controller::App\Core\{closure}('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(50): App\Core\Controller->view('home/profission...', Array)
+#5 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(42): App\Controllers\PageController->renderPage(Array)
+#6 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('iradvocacia')
+#7 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#8 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/iradvocacia')
+#9 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Core\helpers.php on line 154
+[09-Sep-2026 00:43:01 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mb_strlen(): Argument #1 ($string) must be of type string, bool given in C:\xampp\htdocs\gmentStck\app\Core\helpers.php:154
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Core\helpers.php(154): mb_strlen(true)
+#1 C:\xampp\htdocs\gmentStck\app\Views\home\profissional.php(34): initials('Advocacia com A...')
+#2 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(26): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(27): App\Core\Controller::App\Core\{closure}('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(50): App\Core\Controller->view('home/profission...', Array)
+#5 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(42): App\Controllers\PageController->renderPage(Array)
+#6 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('iradvocacia')
+#7 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#8 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/iradvocacia')
+#9 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Core\helpers.php on line 154
+[09-Sep-2026 00:43:12 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mb_strlen(): Argument #1 ($string) must be of type string, bool given in C:\xampp\htdocs\gmentStck\app\Core\helpers.php:154
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Core\helpers.php(154): mb_strlen(true)
+#1 C:\xampp\htdocs\gmentStck\app\Views\home\profissional.php(34): initials('Advocacia com A...')
+#2 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(26): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(27): App\Core\Controller::App\Core\{closure}('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(50): App\Core\Controller->view('home/profission...', Array)
+#5 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(42): App\Controllers\PageController->renderPage(Array)
+#6 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('iradvocacia')
+#7 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#8 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/iradvocacia')
+#9 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Core\helpers.php on line 154
+[09-Sep-2026 00:43:21 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mb_strlen(): Argument #1 ($string) must be of type string, bool given in C:\xampp\htdocs\gmentStck\app\Core\helpers.php:154
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Core\helpers.php(154): mb_strlen(true)
+#1 C:\xampp\htdocs\gmentStck\app\Views\home\institucional.php(34): initials('Advocacia com A...')
+#2 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(26): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(27): App\Core\Controller::App\Core\{closure}('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(50): App\Core\Controller->view('home/institucio...', Array)
+#5 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(42): App\Controllers\PageController->renderPage(Array)
+#6 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('iradvocacia')
+#7 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#8 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/iradvocacia')
+#9 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Core\helpers.php on line 154
+[09-Sep-2026 00:43:22 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mb_strlen(): Argument #1 ($string) must be of type string, bool given in C:\xampp\htdocs\gmentStck\app\Core\helpers.php:154
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Core\helpers.php(154): mb_strlen(true)
+#1 C:\xampp\htdocs\gmentStck\app\Views\home\institucional.php(34): initials('Advocacia com A...')
+#2 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(26): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(27): App\Core\Controller::App\Core\{closure}('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(50): App\Core\Controller->view('home/institucio...', Array)
+#5 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(42): App\Controllers\PageController->renderPage(Array)
+#6 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('iradvocacia')
+#7 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#8 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/iradvocacia')
+#9 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Core\helpers.php on line 154
+[09-Sep-2026 00:43:45 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mb_strlen(): Argument #1 ($string) must be of type string, bool given in C:\xampp\htdocs\gmentStck\app\Core\helpers.php:154
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Core\helpers.php(154): mb_strlen(true)
+#1 C:\xampp\htdocs\gmentStck\app\Views\home\profissional.php(34): initials('Advocacia com A...')
+#2 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(26): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(27): App\Core\Controller::App\Core\{closure}('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(50): App\Core\Controller->view('home/profission...', Array)
+#5 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(42): App\Controllers\PageController->renderPage(Array)
+#6 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('iradvocacia')
+#7 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#8 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/iradvocacia')
+#9 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Core\helpers.php on line 154
+[09-Sep-2026 00:43:47 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mb_strlen(): Argument #1 ($string) must be of type string, bool given in C:\xampp\htdocs\gmentStck\app\Core\helpers.php:154
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Core\helpers.php(154): mb_strlen(true)
+#1 C:\xampp\htdocs\gmentStck\app\Views\home\profissional.php(34): initials('Advocacia com A...')
+#2 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(26): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(27): App\Core\Controller::App\Core\{closure}('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(50): App\Core\Controller->view('home/profission...', Array)
+#5 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(42): App\Controllers\PageController->renderPage(Array)
+#6 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('iradvocacia')
+#7 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#8 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/iradvocacia')
+#9 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Core\helpers.php on line 154
+[09-Sep-2026 00:43:48 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mb_strlen(): Argument #1 ($string) must be of type string, bool given in C:\xampp\htdocs\gmentStck\app\Core\helpers.php:154
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Core\helpers.php(154): mb_strlen(true)
+#1 C:\xampp\htdocs\gmentStck\app\Views\home\profissional.php(34): initials('Advocacia com A...')
+#2 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(26): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(27): App\Core\Controller::App\Core\{closure}('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(50): App\Core\Controller->view('home/profission...', Array)
+#5 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(42): App\Controllers\PageController->renderPage(Array)
+#6 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('iradvocacia')
+#7 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#8 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/iradvocacia')
+#9 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Core\helpers.php on line 154
+[09-Sep-2026 00:43:49 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mb_strlen(): Argument #1 ($string) must be of type string, bool given in C:\xampp\htdocs\gmentStck\app\Core\helpers.php:154
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Core\helpers.php(154): mb_strlen(true)
+#1 C:\xampp\htdocs\gmentStck\app\Views\home\profissional.php(34): initials('Advocacia com A...')
+#2 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(26): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(27): App\Core\Controller::App\Core\{closure}('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(50): App\Core\Controller->view('home/profission...', Array)
+#5 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(42): App\Controllers\PageController->renderPage(Array)
+#6 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('iradvocacia')
+#7 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#8 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/iradvocacia')
+#9 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Core\helpers.php on line 154
+[09-Sep-2026 00:43:50 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mb_strlen(): Argument #1 ($string) must be of type string, bool given in C:\xampp\htdocs\gmentStck\app\Core\helpers.php:154
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Core\helpers.php(154): mb_strlen(true)
+#1 C:\xampp\htdocs\gmentStck\app\Views\home\profissional.php(34): initials('Advocacia com A...')
+#2 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(26): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(27): App\Core\Controller::App\Core\{closure}('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(50): App\Core\Controller->view('home/profission...', Array)
+#5 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(42): App\Controllers\PageController->renderPage(Array)
+#6 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('iradvocacia')
+#7 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#8 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/iradvocacia')
+#9 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Core\helpers.php on line 154
+[09-Sep-2026 00:44:01 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mb_strlen(): Argument #1 ($string) must be of type string, bool given in C:\xampp\htdocs\gmentStck\app\Core\helpers.php:154
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Core\helpers.php(154): mb_strlen(true)
+#1 C:\xampp\htdocs\gmentStck\app\Views\home\profissional.php(34): initials('Advocacia com A...')
+#2 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(26): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(27): App\Core\Controller::App\Core\{closure}('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(50): App\Core\Controller->view('home/profission...', Array)
+#5 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(42): App\Controllers\PageController->renderPage(Array)
+#6 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('iradvocacia')
+#7 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#8 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/iradvocacia')
+#9 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Core\helpers.php on line 154
+[09-Sep-2026 00:44:03 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mb_strlen(): Argument #1 ($string) must be of type string, bool given in C:\xampp\htdocs\gmentStck\app\Core\helpers.php:154
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Core\helpers.php(154): mb_strlen(true)
+#1 C:\xampp\htdocs\gmentStck\app\Views\home\profissional.php(34): initials('Advocacia com A...')
+#2 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(26): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(27): App\Core\Controller::App\Core\{closure}('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(50): App\Core\Controller->view('home/profission...', Array)
+#5 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(42): App\Controllers\PageController->renderPage(Array)
+#6 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('iradvocacia')
+#7 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#8 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/iradvocacia')
+#9 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Core\helpers.php on line 154
+[09-Sep-2026 00:44:11 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mb_strlen(): Argument #1 ($string) must be of type string, bool given in C:\xampp\htdocs\gmentStck\app\Core\helpers.php:154
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Core\helpers.php(154): mb_strlen(true)
+#1 C:\xampp\htdocs\gmentStck\app\Views\home\profissional.php(34): initials('Advocacia com A...')
+#2 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(26): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(27): App\Core\Controller::App\Core\{closure}('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(50): App\Core\Controller->view('home/profission...', Array)
+#5 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(42): App\Controllers\PageController->renderPage(Array)
+#6 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('iradvocacia')
+#7 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#8 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/iradvocacia')
+#9 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Core\helpers.php on line 154
+[09-Sep-2026 00:44:11 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mb_strlen(): Argument #1 ($string) must be of type string, bool given in C:\xampp\htdocs\gmentStck\app\Core\helpers.php:154
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Core\helpers.php(154): mb_strlen(true)
+#1 C:\xampp\htdocs\gmentStck\app\Views\home\profissional.php(34): initials('Advocacia com A...')
+#2 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(26): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(27): App\Core\Controller::App\Core\{closure}('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(50): App\Core\Controller->view('home/profission...', Array)
+#5 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(42): App\Controllers\PageController->renderPage(Array)
+#6 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('iradvocacia')
+#7 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#8 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/iradvocacia')
+#9 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Core\helpers.php on line 154
+[09-Sep-2026 00:44:11 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mb_strlen(): Argument #1 ($string) must be of type string, bool given in C:\xampp\htdocs\gmentStck\app\Core\helpers.php:154
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Core\helpers.php(154): mb_strlen(true)
+#1 C:\xampp\htdocs\gmentStck\app\Views\home\profissional.php(34): initials('Advocacia com A...')
+#2 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(26): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(27): App\Core\Controller::App\Core\{closure}('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(50): App\Core\Controller->view('home/profission...', Array)
+#5 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(42): App\Controllers\PageController->renderPage(Array)
+#6 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('iradvocacia')
+#7 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#8 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/iradvocacia')
+#9 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Core\helpers.php on line 154
+[09-Sep-2026 00:44:12 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mb_strlen(): Argument #1 ($string) must be of type string, bool given in C:\xampp\htdocs\gmentStck\app\Core\helpers.php:154
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Core\helpers.php(154): mb_strlen(true)
+#1 C:\xampp\htdocs\gmentStck\app\Views\home\profissional.php(34): initials('Advocacia com A...')
+#2 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(26): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(27): App\Core\Controller::App\Core\{closure}('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(50): App\Core\Controller->view('home/profission...', Array)
+#5 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(42): App\Controllers\PageController->renderPage(Array)
+#6 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('iradvocacia')
+#7 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#8 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/iradvocacia')
+#9 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Core\helpers.php on line 154
+[09-Sep-2026 00:44:13 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mb_strlen(): Argument #1 ($string) must be of type string, bool given in C:\xampp\htdocs\gmentStck\app\Core\helpers.php:154
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Core\helpers.php(154): mb_strlen(true)
+#1 C:\xampp\htdocs\gmentStck\app\Views\home\profissional.php(34): initials('Advocacia com A...')
+#2 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(26): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\gmentStck\app\Core\Controller.php(27): App\Core\Controller::App\Core\{closure}('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(50): App\Core\Controller->view('home/profission...', Array)
+#5 C:\xampp\htdocs\gmentStck\app\Controllers\PageController.php(42): App\Controllers\PageController->renderPage(Array)
+#6 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\PageController->show('iradvocacia')
+#7 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#8 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('GET', '/iradvocacia')
+#9 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Core\helpers.php on line 154
+[10-Sep-2026 14:46:49 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method App\Controllers\Admin\PageController::uploadDir() in C:\xampp\htdocs\gmentStck\app\Controllers\Admin\PageController.php:144
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\Admin\PageController->update('4')
+#1 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#2 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('POST', '/admin/pages/4')
+#3 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Controllers\Admin\PageController.php on line 144
+[10-Sep-2026 14:47:47 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method App\Controllers\Admin\PageController::uploadDir() in C:\xampp\htdocs\gmentStck\app\Controllers\Admin\PageController.php:144
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\Admin\PageController->update('4')
+#1 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#2 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('POST', '/admin/pages/4')
+#3 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Controllers\Admin\PageController.php on line 144
+[10-Sep-2026 14:52:17 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method App\Controllers\Admin\PageController::uploadDir() in C:\xampp\htdocs\gmentStck\app\Controllers\Admin\PageController.php:144
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\Admin\PageController->update('4')
+#1 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#2 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('POST', '/admin/pages/4')
+#3 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Controllers\Admin\PageController.php on line 144
+[10-Sep-2026 14:52:21 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method App\Controllers\Admin\PageController::uploadDir() in C:\xampp\htdocs\gmentStck\app\Controllers\Admin\PageController.php:144
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\Admin\PageController->update('4')
+#1 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#2 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('POST', '/admin/pages/4')
+#3 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Controllers\Admin\PageController.php on line 144
+[10-Sep-2026 14:53:21 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method App\Controllers\Admin\PageController::uploadDir() in C:\xampp\htdocs\gmentStck\app\Controllers\Admin\PageController.php:144
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\Admin\PageController->update('4')
+#1 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#2 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('POST', '/admin/pages/4')
+#3 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Controllers\Admin\PageController.php on line 144
+[10-Sep-2026 14:54:04 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'image, bg_color, layout)
+             VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)' at line 1 in C:\xampp\htdocs\gmentStck\app\Models\PageSection.php:30
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Models\PageSection.php(30): PDO->prepare('INSERT INTO pag...')
+#1 C:\xampp\htdocs\gmentStck\app\Controllers\Admin\PageController.php(320): App\Models\PageSection::create(Array)
+#2 C:\xampp\htdocs\gmentStck\app\Controllers\Admin\PageController.php(155): App\Controllers\Admin\PageController->saveSections(4, Array, Array)
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\Admin\PageController->update('4')
+#4 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#5 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('POST', '/admin/pages/4')
+#6 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Models\PageSection.php on line 30
+[10-Sep-2026 14:57:43 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'image, bg_color, layout)
+             VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)' at line 1 in C:\xampp\htdocs\gmentStck\app\Models\PageSection.php:30
+Stack trace:
+#0 C:\xampp\htdocs\gmentStck\app\Models\PageSection.php(30): PDO->prepare('INSERT INTO pag...')
+#1 C:\xampp\htdocs\gmentStck\app\Controllers\Admin\PageController.php(320): App\Models\PageSection::create(Array)
+#2 C:\xampp\htdocs\gmentStck\app\Controllers\Admin\PageController.php(155): App\Controllers\Admin\PageController->saveSections(4, Array, Array)
+#3 C:\xampp\htdocs\gmentStck\app\Core\Router.php(114): App\Controllers\Admin\PageController->update('4')
+#4 C:\xampp\htdocs\gmentStck\app\Core\Router.php(77): App\Core\Router->callHandler(Array, Array)
+#5 C:\xampp\htdocs\gmentStck\public\index.php(13): App\Core\Router->dispatch('POST', '/admin/pages/4')
+#6 {main}
+  thrown in C:\xampp\htdocs\gmentStck\app\Models\PageSection.php on line 30
+[10-Sep-2026 16:48:35 Europe/Berlin] PHP Warning:  Undefined variable $layout in C:\xampp\htdocs\gmentStck\app\Views\home\profissional.php on line 134
+[10-Sep-2026 16:48:37 Europe/Berlin] PHP Warning:  Undefined variable $layout in C:\xampp\htdocs\gmentStck\app\Views\home\profissional.php on line 134
+[10-Sep-2026 16:50:04 Europe/Berlin] PHP Warning:  Undefined variable $section in C:\xampp\htdocs\gmentStck\app\Views\home\profissional.php on line 134
+[10-Sep-2026 16:50:04 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\gmentStck\app\Views\home\profissional.php on line 134
+[10-Sep-2026 16:50:06 Europe/Berlin] PHP Warning:  Undefined variable $section in C:\xampp\htdocs\gmentStck\app\Views\home\profissional.php on line 134
+[10-Sep-2026 16:50:06 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\gmentStck\app\Views\home\profissional.php on line 134
+[10-Sep-2026 17:11:18 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "endforeach" in C:\xampp\htdocs\gmentStck\app\Views\home\profissional.php on line 231
+[10-Sep-2026 17:11:19 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "endforeach" in C:\xampp\htdocs\gmentStck\app\Views\home\profissional.php on line 231
+[10-Sep-2026 17:11:24 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "endforeach" in C:\xampp\htdocs\gmentStck\app\Views\home\profissional.php on line 231

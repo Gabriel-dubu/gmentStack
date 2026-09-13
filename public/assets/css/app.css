@@ -1,0 +1,1480 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --navy: #0b1f33;
+  --navy2: #123754;
+  --gold: #c49a52;
+  --gold2: #e2c789;
+  --paper: #f7f5f0;
+  --ink: #18232d;
+  --muted: #5b6872;
+  --line: #dde3e7;
+  --green: #176b52;
+  --small-green: #2da522;
+  --shadow: 0 20px 60px rgba(8, 24, 39, 0.14);
+  --radius: 22px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family:
+    Inter,
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    "Segoe UI",
+    Roboto,
+    Arial,
+    sans-serif;
+  color: var(--ink);
+  background: #fff;
+  line-height: 1.65;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 1.2;
+  margin: 0 0 1rem;
+  font-weight: 700;
+}
+
+/* ---- Navegação pública (site-nav institucional/landing simples) ---- */
+.site-nav {
+  padding: 1.25rem 2rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.site-nav-brand {
+  font-family: Georgia, serif;
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: var(--navy);
+  text-decoration: none;
+}
+
+.page {
+  padding: 2rem;
+  margin: 0 auto;
+}
+
+/* ---- Formulários (compartilhado admin + público) ---- */
+form label {
+  display: block;
+  margin-top: 1rem;
+  font-weight: 700;
+  font-size: 0.92rem;
+}
+
+form label small {
+  display: block;
+  font-weight: 400;
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+
+form input,
+form select {
+  width: 100%;
+  padding: 0.65rem 0.75rem;
+  margin-top: 0.35rem;
+  border: 1px solid #cfd8df;
+  border-radius: 10px;
+  background: #fff;
+  font-family: inherit;
+}
+
+form input:focus,
+form select:focus,
+textarea:focus {
+  outline: 3px solid rgba(196, 154, 82, 0.24);
+  border-color: var(--gold);
+}
+
+form input[type="color"] {
+  width: 4rem;
+  padding: 0.15rem;
+  height: 2.5rem;
+}
+
+form input[type="checkbox"] {
+  width: auto;
+  margin-right: 0.4rem;
+}
+
+textarea {
+  width: 100%;
+  padding: 0.65rem 0.75rem;
+  margin-top: 0.35rem;
+  border: 1px solid #cfd8df;
+  border-radius: 10px;
+  font-family: inherit;
+}
+
+form button[type="submit"]:not(.button) {
+  margin-top: 1.5rem;
+  padding: 0.7rem 1.4rem;
+  border: none;
+  border-radius: 999px;
+  background: var(--navy);
+  color: #fff;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.alert {
+  padding: 0.75rem 1rem;
+  border-radius: 10px;
+  margin-top: 1rem;
+}
+
+.alert-error {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.alert-success {
+  background: #e9f5f0;
+  color: var(--green);
+}
+
+.field-error {
+  color: #991b1b;
+  font-size: 0.85rem;
+  margin: 0.25rem 0 0;
+}
+
+/* ---- Admin: navegação e listagens ---- */
+.admin-nav {
+  padding: 1rem 2rem;
+  background: #f3f4f6;
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.admin-nav a,
+.admin-nav .link-button {
+  color: var(--navy);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.link-button {
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+}
+
+.link-danger {
+  color: #dc2626 !important;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.table th,
+.table td {
+  text-align: left;
+  padding: 0.6rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.table .actions a,
+.table .actions button {
+  margin-right: 0.75rem;
+}
+
+.section-block {
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background: #fafafa;
+}
+
+.section-block .remove-section {
+  float: right;
+}
+
+.current-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin: 1rem 0;
+}
+
+/* ================================================================ */
+/* ---- Botões (pílula, estilo da referência) ---- */
+/* ================================================================ */
+.button,
+.button-gold,
+.button-outline,
+.button-whatsapp {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 52px;
+  padding: 0 28px;
+  border-radius: 999px;
+  font-weight: 800;
+  text-decoration: none;
+  cursor: pointer;
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease;
+  font-size: 1rem;
+  border: 1px solid transparent;
+}
+
+.button:hover,
+.button-gold:hover,
+.button-outline:hover,
+.button-whatsapp:hover {
+  transform: translateY(-2px);
+}
+
+.button {
+  background: var(--navy);
+  color: #fff;
+}
+
+.button-gold {
+  background: var(--gold);
+  color: #17202a;
+  box-shadow: 0 12px 30px rgba(196, 154, 82, 0.28);
+}
+
+.button-outline {
+  border-color: rgba(255, 255, 255, 0.4);
+  color: #fff;
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.button-outline:hover {
+  border-color: #fff;
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.button-whatsapp {
+  background: #25d366;
+  color: #fff;
+}
+
+.button-block {
+  display: flex;
+  width: 100%;
+}
+
+.button-sm {
+  min-height: 40px;
+  padding: 0 18px;
+  font-size: 0.85rem;
+}
+
+.button-link {
+  background: var(--navy2);
+  border: 1px solid transparent;
+  color: var(--paper);
+  font-size: 0.85rem;
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 0.9rem 1.1rem;
+  font-weight: 600;
+  border-radius: 8px;
+}
+
+/* =========================
+   WHATSAPP
+   ========================= */
+
+.button-link.wpp {
+  background: var(--green);
+  color: #fff;
+  text-decoration: none;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease,
+    transform 0.25s ease,
+    box-shadow 0.3s ease;
+}
+
+.button-link.wpp:hover {
+  background: var(--small-green);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(43, 184, 30, 0.25);
+}
+
+/* =========================
+   E-MAIL
+   ========================= */
+
+.button-link.email {
+  text-decoration: none;
+  color: var(--paper) !important;
+  background: var(--muted);
+  padding: 0.8rem 1rem;
+  border-radius: 10px;
+
+  transition:
+    background-color 0.7s ease-in-out,
+    color 0.7s ease-in-out,
+    transform 0.7s ease-in-out,
+    box-shadow 0.7s ease-in-out;
+}
+
+.button-link.email:hover {
+  background: var(--gold2);
+  color: var(--navy) !important;
+  transform: translateY(-3px) scale(1.02);
+
+  box-shadow: 0 8px 24px rgba(207, 181, 120, 0.25);
+}
+
+/* .button-link {
+  background: none;
+  border: none;
+  color: var(--navy);
+  font-size: 0.85rem;
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 0;
+  font-weight: 600;
+} */
+
+/* ================================================================ */
+/* ---- Template Profissional ---- */
+/* ================================================================ */
+.pro-body {
+  margin: 0;
+}
+
+.pro-nav {
+  background: var(--navy);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+}
+
+.pro-nav-inner {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 1.25rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pro-nav-brand {
+  font-family: Georgia, serif;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.15rem;
+}
+
+.pro-nav-links a {
+  color: #d9e3eb;
+  text-decoration: none;
+  margin-left: 1.5rem;
+  font-size: 0.88rem;
+  font-weight: 600;
+}
+
+.pro-nav-links a:hover {
+  color: var(--gold2);
+}
+
+/* ---- Hero ---- */
+.hero-pro {
+  position: relative;
+  overflow: hidden;
+  background:
+    radial-gradient(
+      circle at 82% 16%,
+      rgba(196, 154, 82, 0.2),
+      transparent 30%
+    ),
+    linear-gradient(135deg, #081827, var(--navy2));
+  color: #fff;
+  padding: 5.5rem 2rem;
+  text-align: center;
+}
+
+.hero-pro::after {
+  content: "";
+  position: absolute;
+  right: -120px;
+  bottom: -220px;
+  width: 540px;
+  height: 540px;
+  border: 1px solid rgba(226, 199, 137, 0.22);
+  border-radius: 50%;
+  box-shadow:
+    0 0 0 80px rgba(226, 199, 137, 0.04),
+    0 0 0 160px rgba(226, 199, 137, 0.03);
+  pointer-events: none;
+}
+
+.hero-inner {
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+.hero-eyebrow {
+  font-size: 0.8rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: var(--gold2);
+  margin-bottom: 0.9rem;
+}
+
+.hero-pro h1 {
+  font-size: clamp(2rem, 4.5vw, 3.2rem);
+  margin: 0 0 1rem;
+}
+
+.hero-highlight {
+  color: var(--gold2);
+}
+
+.hero-subtitle {
+  font-size: clamp(1.02rem, 1.6vw, 1.2rem);
+  max-width: 640px;
+  margin: 0 auto 1.75rem;
+  color: #d9e3eb;
+}
+
+.hero-ctas {
+  display: flex;
+  gap: 0.75rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 0.5rem;
+}
+
+.trust-badges {
+  margin-top: 2rem;
+}
+
+.trust-badges .checklist {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.6rem 1.75rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.trust-badges .checklist li {
+  font-size: 0.88rem;
+  color: #d9e3eb;
+  font-weight: 600;
+}
+
+.trust-badges .checklist li::before {
+  content: "✓";
+  color: var(--gold2);
+  margin-right: 0.4rem;
+  font-weight: 900;
+}
+
+/* ---- Seções gerais ---- */
+.pro-section {
+  padding: 2rem 2rem;
+}
+
+.pro-section-alt {
+  background: #fff;
+}
+
+.pro-section-inner {
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
+.pro-section-title {
+  text-align: center;
+  margin-bottom: 2.75rem;
+  font-size: clamp(1.6rem, 3vw, 2.2rem);
+}
+
+/* ---- Serviços (cards numerados/ícone) ---- */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.service-card {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 0 12px 35px rgba(11, 31, 51, 0.06);
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 40px rgba(11, 31, 51, 0.12);
+}
+
+.service-icon {
+  width: 46px;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #f3ead8;
+  font-size: 1.4rem;
+  margin: 0 auto 1.25rem;
+}
+
+.service-card h3 {
+  font-size: 1.15rem;
+  margin: 0 0 0.6rem;
+}
+
+.service-card p {
+  font-size: 0.95rem;
+  color: var(--muted);
+  margin: 0;
+}
+
+/* ---- Intro: imagem + texto lado a lado ---- */
+.intro-block {
+  display: flex;
+  gap: 2.75rem;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.intro-image-wrap {
+  flex: 1;
+  max-width: 440px;
+  flex-shrink: 0;
+  margin: 0;
+}
+
+.intro-image {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.intro-caption {
+  margin-top: 0.65rem;
+  font-size: 0.85rem;
+  color: var(--muted);
+  text-align: center;
+  font-style: italic;
+}
+
+.intro-text {
+  flex: 1;
+  max-width: 60ch;
+}
+
+.intro-text p,
+.page-content p {
+  margin: 0 0 1rem;
+}
+
+.page-image {
+  width: 100%;
+  max-height: 420px;
+  object-fit: cover;
+  border-radius: var(--radius);
+  margin: 2rem 0;
+  box-shadow: var(--shadow);
+}
+
+.intro-block-image-only {
+  justify-content: center;
+}
+
+.intro-block-image-only .intro-image-wrap {
+  max-width: 640px;
+}
+
+.intro-block-text-only .intro-text {
+  max-width: 68ch;
+  margin: 0 auto;
+}
+
+@media (max-width: 720px) {
+  .intro-block {
+    flex-direction: column;
+  }
+
+  .intro-image-wrap {
+    max-width: 100% !important;
+  }
+}
+
+/* ---- Seções de conteúdo com imagem (institucional) ---- */
+.content-section {
+  padding: 3.5rem 2rem;
+}
+
+.content-section-inner {
+  max-width: 1160px;
+  margin: 0 auto;
+  display: flex;
+  gap: 2.5rem;
+  align-items: center;
+}
+
+.content-section-text {
+  flex: 1;
+  max-width: 60ch;
+}
+
+.content-section-text p {
+  margin: 0 0 1rem;
+}
+
+.content-section-image {
+  width: 100%;
+  max-width: 380px;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  flex-shrink: 0;
+}
+
+.content-section-text-only .content-section-inner {
+  display: block;
+  max-width: 68ch;
+}
+
+.content-section-image-right .content-section-inner {
+  flex-direction: row-reverse;
+}
+
+/* ---- Seção com efeito de "sangria": a cápsula colorida encosta na borda
+   da tela de um dos lados (esquerda ou direita, conforme o layout escolhido
+   no admin) e termina arredondada do outro lado. A cor continua vindo do
+   campo "Cor de fundo" do admin — só a forma do contêiner mudou. ---- */
+.content-section-image-left,
+.content-section-image-right {
+  position: relative;
+  padding: 0;
+  margin: 1.5rem auto;
+  width: min(1300px, 94vw);
+  overflow: hidden;
+}
+
+.content-section-image-left:first-child,
+.content-section-image-right:first-child {
+  margin-top: 20px;
+}
+.content-section-image-left .content-section-inner,
+.content-section-image-right .content-section-inner {
+  padding: 2.5rem 3.5rem;
+  gap: 3rem;
+}
+
+.content-section-image-left .content-section-image,
+.content-section-image-right .content-section-image {
+  max-width: 380px;
+  aspect-ratio: 4 / 3;
+  border-radius: 28px;
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.2);
+}
+
+/* A sangria só faz sentido em telas largas o suficiente pra sobrar espaço;
+   em telas médias/grandes o lado escolhido encosta na borda da tela. */
+@media (min-width: 900px) {
+  .content-section-image-left {
+    margin-left: calc(-50vw + 580px);
+    border-radius: 0 60px 60px 0;
+  }
+
+  .content-section-image-right {
+    margin-left: auto;
+    margin-right: calc(-50vw + 580px);
+    border-radius: 60px 0 0 60px;
+  }
+}
+/* Em telas estreitas, vira um card normal arredondado — a sangria não
+   funciona bem em mobile, então cai pra um formato seguro. */
+@media (max-width: 899px) {
+  .content-section-image-left,
+  .content-section-image-right {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: var(--radius);
+  }
+}
+
+@media (max-width: 640px) {
+  .content-section-inner {
+    flex-direction: column;
+  }
+
+  .content-section-text {
+    max-width: 100%;
+  }
+}
+
+/* ---- Checklist em grade (2 colunas) ---- */
+.checklist-card {
+  max-width: 820px;
+  margin: 0 auto;
+  padding: 2.75rem 3rem;
+  border-radius: var(--radius);
+  background: #fff;
+  border-top: 4px solid var(--gold);
+  box-shadow: var(--shadow);
+}
+
+.checklist-card h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.checklist-card .checklist {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.15rem 2.5rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.checklist-card .checklist li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  font-size: 1rem;
+}
+
+.checklist-card .checklist li::before {
+  content: "✓";
+  flex-shrink: 0;
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 50%;
+  background: #f3ead8;
+  color: #715522;
+  font-weight: 700;
+  font-size: 0.85rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 640px) {
+  .checklist-card {
+    padding: 2rem 1.5rem;
+  }
+
+  .checklist-card .checklist {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ---- Lista em coluna única — estilo "resultados" (fundo navy) ---- */
+.checklist-list-card {
+  max-width: 900px;
+  margin: 0 auto;
+  background: var(--navy);
+  color: #fff;
+  border-radius: var(--radius);
+  padding: 3rem;
+}
+
+.checklist-list-card h2 {
+  text-align: center;
+  margin-bottom: 1.75rem;
+  color: #fff;
+}
+
+.checklist-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.checklist-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  padding: 1.1rem 1.4rem;
+  border-left: 3px solid var(--gold2);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.05);
+  font-size: 0.96rem;
+  color: #d5dfe6;
+  margin-bottom: 0.85rem;
+}
+
+.checklist-list li:last-child {
+  margin-bottom: 0;
+}
+
+.checklist-list li::before {
+  content: "✓";
+  color: var(--gold2);
+  font-weight: 900;
+  flex-shrink: 0;
+}
+
+/* ---- Card de dor/problema: bloco branco + faixa navy com o CTA ---- */
+.pain-card {
+  max-width: 780px;
+  margin: 0 auto;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 28px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+
+.pain-card h2 {
+  padding: 2.5rem 2.5rem 1rem;
+  margin: 0;
+}
+
+.pain-bullets {
+  list-style: none;
+  padding: 0 2.5rem;
+  margin: 0 0 2rem;
+}
+
+.pain-bullets li {
+  margin: 0.9rem 0;
+  padding-left: 1.75rem;
+  position: relative;
+  color: var(--muted);
+}
+
+.pain-bullets li::before {
+  content: "!";
+  position: absolute;
+  left: 0;
+  color: #a24538;
+  font-weight: 900;
+}
+
+.pain-card > .button {
+  display: flex;
+  width: 100%;
+  min-height: auto;
+  margin: 0;
+  padding: 1.5rem;
+  border-radius: 0;
+  background: var(--navy);
+  color: #fff;
+}
+
+.pain-card > .button:hover {
+  background: var(--navy2);
+  transform: none;
+}
+
+/* ---- Equipe ---- */
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+}
+
+.team-card {
+  text-align: center;
+}
+
+.team-photo {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 1rem;
+  box-shadow: var(--shadow);
+}
+
+.team-photo-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e2e8f0;
+  font-size: 2.5rem;
+}
+
+.team-card h3 {
+  font-size: 1.05rem;
+  margin: 0 0 0.25rem;
+}
+
+.team-role {
+  color: var(--muted);
+  font-size: 0.88rem;
+  margin: 0;
+}
+
+/* ---- FAQ (accordion nativo) ---- */
+.pro-faq-inner {
+  max-width: 780px;
+}
+
+.faq-item {
+  border-bottom: 1px solid var(--line);
+  padding: 1.1rem 0;
+}
+
+.faq-item summary {
+  cursor: pointer;
+  font-weight: 700;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faq-item summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq-item summary::after {
+  content: "+";
+  font-size: 1.4rem;
+  color: var(--gold);
+  margin-left: 1rem;
+}
+
+.faq-item[open] summary::after {
+  content: "−";
+}
+
+.faq-answer {
+  margin-top: 0.85rem;
+  color: var(--muted);
+}
+
+/* ---- Formulário de contato ---- */
+.pro-contact-inner {
+  max-width: 560px;
+  text-align: center;
+}
+
+.lead-form {
+  background: #fff;
+  border-radius: 26px;
+  padding: 2.25rem;
+  box-shadow: var(--shadow);
+  text-align: left;
+}
+
+.lead-form-alt-actions {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1.25rem;
+  flex-wrap: wrap;
+}
+
+/* ---- Mapa ---- */
+.pro-map iframe {
+  display: block;
+}
+
+/* ---- Rodapé ---- */
+.pro-footer {
+  text-align: center;
+  padding: 2.5rem 2rem;
+  background: #071522;
+  color: #bdcbd5;
+  font-size: 0.88rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+/* ---- Intro: fundo branco puro, diferenciando das seções cinza/navy ---- */
+.pro-intro {
+  padding: 5.5rem 2rem;
+  background: linear-gradient(135deg, #1c242e 0%, #15273b 50%, #0b1f33 100%);
+  color: #e9edf1;
+}
+
+.pro-intro .intro-text {
+  padding-left: 1.5rem;
+  border-left: 3px solid var(--gold2);
+  color: inherit;
+}
+
+.pro-intro .intro-text p {
+  color: #ffffff;
+}
+
+.pro-intro .intro-caption {
+  color: #cbb98a;
+}
+
+.pro-intro.intro-block-text-only .intro-text {
+  border-left: none;
+  padding-left: 0;
+  text-align: center;
+}
+
+.pro-intro .intro-image-wrap {
+  max-width: 480px;
+}
+
+.pro-intro .intro-image {
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.pro-intro .intro-text {
+  padding-left: 1.5rem;
+  border-left: 3px solid var(--gold);
+}
+
+.pro-intro.intro-block-text-only .intro-text {
+  border-left: none;
+  padding-left: 0;
+  text-align: center;
+}
+
+/* ---- Botão flutuante de WhatsApp ---- */
+.whatsapp-float {
+  position: fixed;
+  right: 22px;
+  bottom: 22px;
+  z-index: 50;
+  width: 58px;
+  height: 58px;
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #25d366;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 1.35rem;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.22);
+}
+
+/* ---- Landing simples (template "landing") ---- */
+.landing-body {
+  margin: 0;
+}
+
+.page-landing {
+  max-width: 720px;
+  padding: 2rem;
+  margin: 0 auto;
+}
+
+.lead-form-section {
+  margin-top: 3rem;
+  padding: 2.5rem 2rem;
+  background: var(--paper);
+  border-radius: var(--radius);
+  text-align: center;
+}
+
+.landing-footer {
+  text-align: center;
+  padding: 1.5rem;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+/* ---- Topbar ---- */
+.pro-topbar {
+  background: #071522;
+  color: #9fb0bd;
+  font-size: 0.82rem;
+}
+
+.pro-topbar-inner {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0.5rem 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* ---- Logo em badge ---- */
+.pro-nav-identity {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.logo-badge {
+  width: 38px;
+  height: 38px;
+  border-radius: 8px;
+  background: var(--gold);
+  color: #17202a;
+  font-weight: 800;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.logo-badge-image {
+  background: transparent;
+  object-fit: cover;
+}
+
+/* ---- Como funciona (passos) ---- */
+.pro-steps-inner {
+  max-width: 720px;
+}
+
+.steps-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.step-item {
+  display: flex;
+  gap: 1.5rem;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.step-item:last-child {
+  border-bottom: none;
+}
+
+.step-number {
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: #f3ead8;
+  color: var(--navy);
+  font-weight: 800;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.step-item h3 {
+  font-size: 1.05rem;
+  margin: 0 0 0.35rem;
+}
+
+.step-item p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+/* ---- Aviso de Privacidade ---- */
+.privacy-section {
+  background: var(--paper);
+}
+
+.privacy-section p {
+  color: var(--muted);
+  max-width: 68ch;
+  margin: 0 auto 1rem;
+}
+
+/* ---- Hero: variante com card lateral ---- */
+.hero-split .hero-split-inner {
+  display: flex;
+  gap: 3rem;
+  align-items: flex-start;
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.hero-split .hero-split-content {
+  flex: 1.15;
+}
+
+.hero-split .hero-subtitle {
+  margin-left: 0;
+}
+
+.hero-split .hero-ctas {
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.hero-card-left .hero-split-inner {
+  flex-direction: row-reverse;
+}
+
+.hero-trust-card {
+  flex: 1;
+  align-self: stretch;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 20px;
+  padding: 2rem;
+}
+
+.hero-trust-card .checklist {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.hero-trust-card .checklist li {
+  padding: 0.85rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  color: #d9e3eb;
+  font-weight: 500;
+  display: block;
+}
+
+.hero-trust-card .checklist li:last-child {
+  border-bottom: none;
+}
+
+.hero-trust-card .checklist li::before {
+  content: "✓";
+  color: var(--gold2);
+  margin-right: 0.5rem;
+  font-weight: 900;
+}
+
+@media (max-width: 820px) {
+  .hero-split .hero-split-inner {
+    flex-direction: column !important;
+  }
+
+  .hero-trust-card {
+    width: 100%;
+  }
+}
+
+.flash {
+  opacity: 1;
+  transform: translateY(0);
+
+  transition:
+    opacity 0.3s ease,
+    transform 0.3s ease;
+}
+
+.flash-hide {
+  opacity: 0;
+  transform: translateY(-10px);
+}
+
+/* ---- Lista em coluna única + card lateral ---- */
+.checklist-aside-wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5rem;
+  align-items: start;
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
+.checklist-aside-reverse {
+  direction: rtl;
+}
+
+.checklist-aside-reverse > * {
+  direction: ltr;
+}
+
+.checklist-aside-list h2 {
+  margin-bottom: 1rem;
+}
+
+.checklist-list-plain {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.checklist-list-plain li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  padding: 1.1rem 1.4rem;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  margin-bottom: 0.85rem;
+  color: var(--ink);
+}
+
+.checklist-list-plain li:last-child {
+  margin-bottom: 0;
+}
+
+.checklist-list-plain li::before {
+  content: "✓";
+  color: var(--navy2);
+  font-weight: 900;
+  flex-shrink: 0;
+}
+
+.checklist-aside-card {
+  background: var(--navy);
+  color: #fff;
+  border-radius: var(--radius);
+  padding: 2.5rem;
+  box-shadow: var(--shadow);
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+}
+
+.checklist-aside-card h2 {
+  color: #fff;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.aside-bullets {
+  list-style: disc;
+  padding-left: 1.25rem;
+  margin: 0 0 1.5rem;
+  color: #d9e3eb;
+  flex: 1;
+}
+
+.aside-bullets li {
+  margin-bottom: 0.6rem;
+}
+
+.checklist-aside-card > .button {
+  align-self: flex-start;
+  background: #fff;
+  color: var(--navy);
+}
+
+@media (max-width: 820px) {
+  .checklist-aside-wrap {
+    grid-template-columns: 1fr;
+    direction: ltr;
+  }
+}
+
+/* ================================================================
+   RESPONSIVIDADE GERAL
+   ================================================================ */
+
+/* ---- Navegação: em telas estreitas, empilha marca + links em vez de
+   apertar tudo numa linha só (evita rolagem horizontal) ---- */
+@media (max-width: 720px) {
+    .pro-nav-inner {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.75rem;
+    }
+
+    .pro-nav-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.4rem 1.25rem;
+    }
+
+    .pro-nav-links a {
+        margin-left: 0;
+    }
+
+    .pro-topbar-inner {
+        flex-wrap: wrap;
+        gap: 0.25rem 1rem;
+    }
+}
+
+/* ---- Cápsula de imagem: entre 640px e 899px o card já não é mais "sangria",
+   mas texto e imagem lado a lado ainda ficavam espremidos. Empilha antes. ---- */
+@media (max-width: 899px) {
+    .content-section-image-left .content-section-inner,
+    .content-section-image-right .content-section-inner {
+        flex-direction: column;
+        padding: 2rem;
+        gap: 1.5rem;
+    }
+
+    .content-section-image-left .content-section-image,
+    .content-section-image-right .content-section-image {
+        max-width: 100%;
+    }
+}
+
+/* ---- Cards com padding generoso demais para telas muito pequenas
+   (celulares estreitos, ~320-400px) ---- */
+@media (max-width: 480px) {
+    .pain-card h2 {
+        padding: 2rem 1.5rem 0.75rem;
+    }
+
+    .pain-bullets {
+        padding: 0 1.5rem;
+    }
+
+    .pain-card > .button {
+        padding: 1.25rem;
+    }
+
+    .checklist-list-card {
+        padding: 1.75rem;
+    }
+
+    .checklist-card {
+        padding: 1.75rem 1.25rem;
+    }
+
+    .hero-trust-card,
+    .checklist-aside-card {
+        padding: 1.5rem;
+    }
+
+    .pro-section {
+        padding: 2.5rem 1.25rem;
+    }
+}
+
+/* ---- Botão flutuante de WhatsApp: um pouco menor em telas pequenas
+   para não competir demais com o conteúdo ---- */
+@media (max-width: 480px) {
+    .whatsapp-float {
+        width: 50px;
+        height: 50px;
+        font-size: 1.15rem;
+        right: 14px;
+        bottom: 14px;
+    }
+}

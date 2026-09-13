@@ -1,0 +1,5 @@
+ALTER TABLE pages
+    ADD COLUMN template VARCHAR(20) NOT NULL DEFAULT 'institucional' AFTER slug,
+    ADD COLUMN subtitle VARCHAR(255) DEFAULT NULL AFTER title,
+    ADD COLUMN cta_text VARCHAR(80) DEFAULT NULL AFTER content,
+    ADD COLUMN cta_link VARCHAR(255) DEFAULT NULL AFTER cta_text;
